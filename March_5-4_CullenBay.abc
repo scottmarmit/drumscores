@@ -1,0 +1,34 @@
+X: 1
+%%landscape 1
+T: Cullen Bay
+T: Field Drums
+M: 5/4
+L: 1/16
+K: none stafflines=1
+U: R = ///
+U: r = //
+U: L = +hit+
+V:S stem=down dyn=up clef=none snm="S"
+V:B stem=down dyn=up clef=none snm="B"
+P:1
+V:S
+  Lc4) z4 z4 {/A}LcAc{/c}LA cAc/A/c/A/ \
+  [V:S gstem=down] | Lc4 z4 z4 Lc2{A/A/}cLA (3:2ccLAcA \
+  [V:S gstem=up] | c2{/A}Lc2 A2{/c}LA2 {/A}cLAcA {/A}LcA{/A}cLA c{/c}ALc2 \
+  |1 (7:4:7.cAcAcA.c LA2("^7"rc2 A)Lc!hat!A2 "^17"(Rc4 Rc4 :|2 (7:4:7.cAcAcA.c LA2("^7"rc2 A)cLA2 "^9"(Rc4 Lc4) |]!
+V:B
+  Lc4 z4 z4 LcAcLA cAc2 \
+  | LA4 z4 z4 Lc3LA z LA3 \
+  | c2Lc2 A2LA2 cLAcA LcAcLA cALc2 \
+  |1 Lc4 z4 ALcLA2 c4 c4 :|2 Lc4 z4 ALcLA2 c4 c4 |]!
+P:2
+V:S
+  {/A}(3c2c2c2 {/c}(3A2A2A2 {/A}(3c2c2c2 {/c}LA4 z4 \
+  | {/A}(3:2Lc3Ac2 {/c}(3:2A3cA2 {/A}(3:2Lc3Ac2 {/c}A4 (Rc4 \
+  | (3c2)c2c2 {/c}(3A2A2A2 {/A}(3c2c2c2 {/c}LA4 z4 \
+  |1 (7:4:7.cAcAcA.c LA2("^7"rc2 A)Lc!hat!A2 "^17"(Rc4 Rc4 :|2 (7:4:7.cAcAcA.c LA2("^7"rc2 A)cLA2 "^9"(Rc4 Lc4) |]!
+V:B
+  (3c2c2c2 (3A2A2A2 (3c2c2c2 LA4 z4 \
+  | z4 z4 z4 z4 z4 \
+  | (3c2c2c2 (3A2A2A2 (3c2c2c2 LA4 z4 \
+  |1 Lc4 z4 ALcLA2 c4 c4 :|2 Lc4 z4 ALcLA2 c4 c4 |]!

@@ -1,0 +1,57 @@
+% format file
+
+beginps
+
+/myaccent{
+    1.2 SLW M -4 0 RM
+    6 2 RL -6 2 RL stroke
+}!
+
+/hat{
+    1.2 setlinewidth moveto -2.6 1.0 rmoveto
+    2.6 6.0 rlineto
+    2.6 -6.0 rlineto
+    stroke
+}!
+
+/uhat{
+    1.2 setlinewidth moveto -2.6 8.0 rmoveto
+    2.6 -6.0 rlineto
+    2.6 6.0 rlineto
+    stroke
+}!
+
+/chip{
+    1.0 setlinewidth
+    moveto
+    -12 -2 rmoveto
+    3 10 rlineto
+    currentpoint stroke
+    moveto
+    0 rlineto
+    3 -10 rlineto
+    stroke
+}!
+
+endps
+
+partsbox 1
+partsspace 2.0cm
+topmargin 0.5cm
+leftmargin 0.3cm
+rightmargin 0.3cm
+bottommargin 0.5cm
+titlefont Bookman-Demi 20
+subtitlefont Bookman-LightItalic 14
+annotationfont Helvetica-Narrow 10
+footerfont Bookman-LightItalic 10
+footer "\u00a9 2015 Scott Armit - Last modified: $d"
+flatbeams 1
+deco head-x 0 dsh0 0 0 0
+deco hit 3 myaccent 0 0 0
+deco hat 3 hat 0 0 0
+deco uhat 3 uhat 0 0 0
+deco chip( 7 - 0 0 0
+deco chip) 7 chip 0 0 0
+
+% end

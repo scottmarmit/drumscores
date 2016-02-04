@@ -1,0 +1,12 @@
+X: 1%%landscape 1T: We're No Awa' Tae Bike Awa'T: Field Drums: 4/4L: 1/16K: none stafflines=1V:S stem=down dyn=up clef=none snm="S"V:B stem=down dyn=up clef=none snm="B"U: R = ///U: r = //U: L = +hit+V:S
+  ("^9"Rc4 [|: Lc2)Ac {/c}A2{/A}c2 {/c}LA2cA {/A}c2{/c}A2 \  | {/A}c2{/c}LA2 {/A}cLAcA {/A}c4 ("^9"RA4 \
+  | LA2)cA {/A}cc{/c}A2 {/A}cLAcA {/A}cc{/c}A2 \  | {/A}LcAcc {/c}LAcAA {/A}Lc4 ("^9"RA4 !  | LA2){/A}c2 {/c}ALcAc {/c}A4 ("^9"Rc4 \
+  | c)A{/A}LcA c{/c}LAcA {/A}c4 ("^9"RA4  \
+  | A)c{/c}AA {/A}cLAcA {/A}cc{/c}AA {/A}cLAcA \  | {/A}LcAc{/c}LA cA{/A}c2 {/c}LA4 ("^9"Rc4 ! :|]V:B  z4 [|: Lc2Ac A4 LA2cA c4 \
+  | c2LA2 cLAcA c4 z4 \
+  | LA4 ccA2 cLAcA ccA2 \
+  | LcAcc LAcAA Lc4 z4!
+  | LA4 ALcAc A4 z4 \
+  | cALcA cLAcA c4 z4  \
+  | AcAA cLAcA ccAA cLAcA \
+  | LcAcLA cAc2 LA4 z4 ! :|]

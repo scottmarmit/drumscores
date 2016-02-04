@@ -1,0 +1,25 @@
+%%staffsep 42pt
+%%footer ""
+X: 1
+T: Tenor and Bass Training
+T: Play all from slow (open) to fast (close) and back again (breakdown)
+L: 1/16
+K: none stafflines=1
+V: 1 stem=down dyn=up clef=none
+U: R = ///
+U: r = //
+M: 4/4
+"No. 1 - Triplet"
+| (3:2LcAc (3:2LAcA (3:2cLAc (3:2ALcA | (3:2LcAc (3:2LAcA (3:2cLAc (3:2ALcA |
+M: 4/4
+"\n\nNo. 2 - Paradiddle"
+| LcAcc LAcAA cLAcc ALcAA | LcAcc LAcAA cLAcc ALcAA |
+M: 4/4
+"\n\nNo. 3 - The Long Roll"
+| AAcc AAcc AAcc AAcc | AAcc AAcc AAcc AAcc |
+M: 6/8
+"\n\nNo. 4 - The Tapacue"
+| cLAcAc2 ALcAcA2 | cLAcAc2 ALcAcA2 |
+M: 6/8
+"\n\nNo. 5 - The Double Paradiddle"
+| LAcAcAA LcAcAcc | LAcAcAA LcAcAcc |

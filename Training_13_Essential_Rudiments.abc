@@ -1,0 +1,58 @@
+%%staffsep 42pt
+%%footer ""
+X: 1
+T: 13 Essential Rudiments (N.A.R.D)
+T: Play all from slow (open) to fast (close) and back again (breakdown)
+L: 1/16
+K: none stafflines=1
+V: 1 stem=down dyn=up clef=none
+U: R = ///
+U: r = //
+M: 4/4
+"No. 1 - The Long Roll"
+| A4 LA4 c4 Lc4 A2LA2 c2Lc2 A2LA2 c2Lc2 ALAcLc ALAcLc ALAcLc ALAcLc A/A/c/c/A/A/c/c/  A/A/c/c/A/A/c/c/ |
+M: 4/4
+"No. 2 - The Five Stroke Roll"
+| A2A2 c2c2 LA4 c2c2 A2A2 Lc4 AAcc LA4 ccAA Lc4 A/A/c/c/LA2 c/c/A/A/Lc2 "_5"(rA2A2) "_5"(rc2c2) |
+M: 4/4
+"No. 3 - The Seven Stroke Roll"
+| A2A2 c2c2 A2A2 Lc4 c2c2 A2A2 c2c2 LA4 AAcc AA Lc4 ccAA cc LA4 \
+A/A/c/c/A/A/Lc2 c/c/A/A/c/c/LA2 "_7"(rA2c2) "_7"(rc2A2) |
+M: 4/4
+"No. 4 - The Flam"
+| {/A}c4 {/c}A4 {/A}c4 {/c}A4 {/A}c2{/c}A2 {/A}c2{/c}A2 {/A}c2{/c}A2 {/A}c2{/c}A2 \
+{/A}c{/c}A{/A}c{/c}A {/A}c{/c}A{/A}c{/c}A {/A}c{/c}A{/A}c{/c}A {/A}c{/c}A{/A}c{/c}A |
+M: 4/4
+"No. 5 - The Flam Accent"
+| {/A}c4 A4 c4 {/c}A4 c4 A4 {/A}c2A2c2 {/c}A2c2A2 {/A}cAc{/c}AcA {/A}cAc{/c}AcA |
+M: 4/4
+"No. 6 - The Flam Paradiddle"
+| {/A}c4 A4 c4 c4 {/c}A4 c4 A4 A4 {/A}c2A2 c2c2 {/c}A2c2 A2A2 {/A}cAcc {/c}AcAA {/A}cAcc {/c}AcAA |
+M: 4/4
+"No. 7 - The Flamacue"
+| {/A}c4 LA4 c4 A4 {/A}c4 z4 {/c}A4 Lc4 A4 c4 {/c}A4 z4 {/A}c2LA2 c2A2 {/A}c4 {/c}A2Lc2 A2c2 {/c}A4 \
+| {/A}cLAcA {/A}c2 {/c}ALcAc {/c}A2 |
+M: 4/4
+V: 1 gstem=down
+"No. 8 - The Ruff"
+| {AA}c4 {cc}A4 {AA}c4 {cc}A4 {AA}c4 {cc}A4 {AA}c4 {cc}A4 {AA}c4 {cc}A4 {AA}c4 {cc}A4 {AA}c4 {cc}A4 {AA}c4 {cc}A4 |
+M: 4/4
+V: 1 gstem=down
+"No. 9 - The Single Drag"
+| {AA}cLA3 {cc}ALc3 {AA}cLA3 {cc}ALc3 {AA}cLA3 {cc}ALc3 {AA}cLA3 {cc}ALc3 {AA}cLA3 {cc}ALc3 {AA}cLA3 {cc}ALc3 |
+M: 6/8
+V: 1 gstem=down
+"No. 10 - The Double Drag"
+| {AA}c3{AA}cA2 {cc}A3{cc}Ac2 {AA}c3{AA}cA2 {cc}A3{cc}Ac2 {AA}c3{AA}cA2 {cc}A3{cc}Ac2 {AA}c3{AA}cA2 {cc}A3{cc}Ac2 |
+M: 6/8
+V: 1 gstem=down
+"No. 11 - The Double Paradiddle"
+| LA2c2A2c2A2A2 Lc2A2c2A2c2c2 LAcAcAA LcAcAcc LA/c/A/c/A/A/ Lc/A/c/A/c/c/ |
+M: 4/4
+V: 1 gstem=down
+"No. 12 - The Single Ratamacue"
+| {AA}(3:c2A2c2 LA4 {cc}(3:A2c2A2 Lc4 {AA}(3:c2A2c2 LA4 {cc}(3:A2c2A2 Lc4 {AA}(3:c2A2c2 LA4 {cc}(3:A2c2A2 Lc4 |
+M: 4/4
+V: 1 gstem=down
+"No. 13 - The Triple Ratamacue"
+| {AA}c2{AA}c2 {AA}(3:cAcLA2 {cc}A2{cc}A2 {cc}(3:AcALc2 {AA}c2{AA}c2 {AA}(3:cAcLA2 {cc}A2{cc}A2 {cc}(3:AcALc2 |

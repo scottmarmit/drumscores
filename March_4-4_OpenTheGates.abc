@@ -1,0 +1,51 @@
+X: 1
+%%landscape 1
+T: Open The Gates!
+T: Field Drums
+T: Arrangement by Scott Armit
+M: 4/4
+L: 1/16
+K: none stafflines=1
+V:S stem=down dyn=up clef=none snm="S"
+V:B stem=down dyn=up clef=none snm="B"
+U: R = ///
+U: r = //
+U: L = +hit+
+P:1
+V:S
+  [| {/A}Lc2Ac {/c}LA2cA {/A}c2{/c}A2 {/A}LcAcc \
+  | {/c}A2{/A}c2 {/c}LAcAA {/A}LcAcA {/A}cc{/c}AA \
+  | {/A}Lc2Ac {/c}LA2cA {/A}c2{/c}A2 {/A}LcAcc \
+  | {/c}A2{/A}c2 {/c}ALcAc {/c}LA4 "^9"(Rc4 !
+  | Lc2)Ac {/c}LA2cA {/A}c2{/c}A2 {/A}LcAcc \
+  | {/c}A2{/A}c2 {/c}LAcAA {/A}LcAcA {/A}cc{/c}AA \
+  | {/A}Lc2Ac {/c}LA2cA {/A}c2{/c}A2 {/A}LcAcc \
+  | {/c}A2{/A}c2 {/c}ALcAc {/c}LA4 z2"^7"(rA2 |]
+V:B
+  [| Lc4 LA4 c2A2 LcAcc \
+  | A2c2 LAcAA Lc4 z4 \
+  | Lc4 LA4 c2A2 LcAcc \
+  | A2c2 ALcAc LA4 c2A2 !
+  | Lc4 LA4 c2A2 LcAcc \
+  | A2c2 LAcAA Lc4 z4 \
+  | Lc4 LA4 c2A2 LcAcc \
+  | A2c2 LAcAA Lc4 c2A2 |]
+P:2
+V:S
+  ![| Lc2){/c}A2 {/c}c2{/c}LA2 {/A}c2{/c}A2 {/A}Lc2"^7"(rA2 \
+  | Lc2){/c}A2 {/c}Lc2{/c}ALc Ac{/c}A2 {/A}Lc2"^7"(rA2 \
+  | Lc2){/c}A2 {/c}c2{/c}LA2 {/A}c2{/c}A2 {/A}Lc2"^7"(rA2 \
+  | c2){/c}LA2 {/A}cLAcA {/A}Lc4 z2"^7"(rA2 !
+  [| Lc2){/c}A2 {/c}c2{/c}LA2 {/A}c2{/c}A2 {/A}Lc2"^7"(rA2 \
+  | Lc2){/c}A2 {/c}Lc2{/c}ALc Ac{/c}A2 {/A}Lc2"^7"(rA2 \
+  | Lc2){/c}A2 {/c}c2{/c}LA2 {/A}c2{/c}A2 {/A}Lc2"^7"(rA2 \
+  | c2){/c}LA2 {/A}cLAcA {/A}Lc4 z4 |]
+V:B
+  ![| Lc2A2 c2LA2 c2A2 Lc4 \
+  | Lc2A2 Lc2ALc AcA2 Lc4 \
+  | Lc2A2 c2LA2 c2A2 Lc4 \
+  | c2LA2 cLAcA Lc4 z4 !
+  [| Lc2A2 c2LA2 c2A2 Lc4 \
+  | Lc2A2 Lc2ALc AcA2 Lc4 \
+  | Lc2A2 c2LA2 c2A2 Lc4 \
+  | c2LA2 cLAcA Lc4 z4 |]

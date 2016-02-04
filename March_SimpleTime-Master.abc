@@ -1,0 +1,34 @@
+X: 1
+T: Simple Time Master Score
+T: ... and even works for 2/4!!
+T: March, Field Drums
+M: C
+L: 1/16
+K: none stafflines=1
+V:Snare stem=down dyn=up clef=none snm="S"
+V:Bass stem=down dyn=up clef=none snm="B"
+U: R = ///
+U: r = //
+U: L = +hit+
+P:1
+V:Snare
+   {/A}Lc2(3:AcA c2{/c}A2 {/A}cLAcc {/c}ALcAA \
+   | {/A}Lc2("^5"rA2 LA2)(rc2 Lc2)(3:AcA (3:cALcLA2 !
+   | {/A}Lc2(3:AcA c2{/c}A2 {/A}cLAcc {/c}ALcAA \
+   | {/A}Lc2A2 {/c}(3:A2c2c2 {/A}Lc4 z4 :|] !
+V:Bass
+   Lc2(3:AcA c4 cLAcc ALcAA \
+   | Lc4 LA4 Lc2(3:AcA (3:cALcLA2 !
+   | Lc2(3:AcA c4 cLAcc ALcAA \
+   | Lc4 (3:A2c2A2 Lc4 z4 :|] !
+P:2
+V:Snare
+   ("^7"rc2>LA2) Lc2("^9"rA2 rA2LA2) {/A}cc{/c}AA \
+   | {/A}Lc2("^5"rA2 LA2)("^5"rc2 Lc2)(3:AcA (3:cALcLA2 !
+   | ("^7"rc2>LA2) Lc2("^9"rA2 rA2LA2) {/A}cc{/c}AA \
+   | {/A}Lc2A2 {/c}(3:A2c2c2 {/A}Lc4 z4 :|] !
+V:Bass
+   z4 Lc4 z2Lc2 ccAA \
+   | Lc4 LA4 Lc2(3:AcA (3:cALcLA2 !
+   | z4 Lc4 z2Lc2 ccAA \
+   | Lc4 (3:A2c2A2 Lc4 z4 :|] !

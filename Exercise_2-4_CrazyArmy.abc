@@ -1,0 +1,20 @@
+X: 1
+T: Crazy Army
+T: Written by Ed Lemley in 1934
+M: 2/4
+L: 1/16
+K: none stafflines=1
+V: 1 stem=down dyn=up clef=none
+U: R = //
+U: r = //
+"All rolls open\n"
+% 1st
+("_7"rA2 [|: .c2)("_7"rA2 .c2){/A}cuA | cA{/A}cc {/c}A2("_7"rA2 | uc)Acc {/c}uAcAA | {/A}c2{/A}cuA cA{/A}cc
+|! {/c}A2("_7"rA2 .c2){/A}cuA | cA{/A}cc {/c}AA{/A}c2 | {/A}ucAcc {/c}uAcAA
+| [1 {/A}.cc{/c}AA {/A}c2("_7"rA2 :|][2 !<(!{/A}cc{/c}AA {/A}cc{/c}AA!<)! |!
+% 2nd
+"\n\n\n"
+[|: {/A}uc2("_7"rA2 uc2)("_7"rA2 | uc)uAcA {/A}c2("_7"rA2 | uc)Auc2 {/c}uAcuA2 | {/A}c2{/A}cuA cA{/A}cc
+|! {/c}uA2("_7"rA2 .c2){/A}cuA | cA{/A}cc {/c}AA{/A}c2 | {/A}ucAcc {/c}uAcAA
+| [1 !<(!{/A}cc{/c}AA {/A}cc{/c}AA!<)! :|][2 {/A}.cc{/c}AA {/A}uc4 |
+
