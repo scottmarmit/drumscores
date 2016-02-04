@@ -5,6 +5,10 @@ Scott Armit's ABC Field Drum Scores
 
 Visit http://abcnotation.com/ for more information on the ABC notation system.
 
+# EasyABC
+
+While you can of course edit ABC files in an editor and use tools like abcm2ps to render into viewable format, you can also use [EasyABC](http://www.nilsliberg.se/ksp/easyabc/) to view the results of your edits in realtime.
+
 # OSX
 
 These steps rely on [Homebrew](http://brew.sh/).
@@ -29,9 +33,9 @@ The OSX application Preview, renders PostScript files. So you can convert ABC to
 
 Recent versions of OSX come with pstopdf which does the conversion for PS to, well PDF. To convert a PS file to PDF just:
 
-```$ pstopdf March_4-4_RowanTree.ps```
+```$ pstopdf March_4-4_OpenTheGates.ps```
 
-... which results in a file in the same directory named ```March_4-4_RowanTree.pdf```
+... which results in a file in the same directory named ```March_4-4_OpenTheGates.pdf```
 
 # Format File
 
