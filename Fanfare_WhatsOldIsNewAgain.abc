@@ -1,0 +1,54 @@
+X: 1
+T: What's Old Is New Again
+T: Fanfare for Field Drum
+T: Page 1 of 3
+M: 2/2
+L: 1/8
+K: stafflines=1
+V: 1 stem=down dyn=up clef=none
+U: R = ///
+U: r = //
+%% %%deco head-x 0 dsh0 0 0 0	% X head
+"1st"
+[|: {/A}uc2>A2 {/A}cuAcA | {/A}c{/c}A {/A}cuAcA | {/A}ucAc{/c}A cA{/A}ucA | c{/c}AcA {/A}cuAcA
+|! {/A}uc2>A2 {/A}cuAcA | {/A}c{/c}A {/A}cuAcA | {/A}ucAc{/c}A cA{/A}cuA | cA{/A}c2 {/c}A2 :|]!
+"\n\n"
+"2nd"
+[|: {/A}uc4 [V:1 gstem=down]{A/2c/2c/2}Auc2> | [V:1 gstem=up]!<(!(6:c2AcAcA LcuAcA!<)! | {/A}ucAc{/c}A cA{/A}ucA | c{/c}AcA {/A}cuAcA
+|! {/A}uc4 [V:1 gstem=down]{A/2c/2c/2}Auc2> | [V:1 gstem=up]!<(!(6:c2AcAcA LcuAcA!<)!  | {/A}ucAc{/c}A cA{/A}cuA | cA{/A}c2 {/c}A2 :|]!
+"\n\n"
+"3rd"
+[|: !<(!{/A}("_13"Rc4 c)uA!<)!cA | [V:1 gstem=down] !<(!c2{cc}A2 {AA}c!<)!uAcA | [V:1 gstem=up] {/A}ucAc{/c}A cA{/A}ucA | c{/c}AcA {/A}cuAcA
+|!  !<(!{/A}("_13"Rc4 c)uA!<)!cA | [V:1 gstem=down] !<(!c2{cc}A2 {AA}c!<)!uAcA | [V:1 gstem=up] {/A}ucAc{/c}A cA{/A}cuA | cA{/A}c2 {/c}A2 :|]!
+"\n\n"
+"4th"
+[|: !head-x!cAcA c!head-x!AcA | cA!head-x!cA ucuAcA | !head-x!cAcA c!head-x!AcA | (3:c2c2c2 (3:c2c2c2
+|! !head-x!cAcA c!head-x!AcA | cA!head-x!cA ucuAcA | !head-x!cAcA c!head-x!AcA | cA!head-x!cA uc4 :|]!
+%%newpage
+T: What's Old Is New Again
+T: Fanfare for Field Drum
+T: Page 2 of 3
+M: 2/4
+"Intro"
+[| (6:ucAAcAA (6:cAAcAA | (6:ucAAcAA (6:cAAcAA | (6:ucAAcAA (6:ucAAcAA | (6:ucAAucAA (6:ucAAucAA |]!
+"\n\n\n"
+"1st"
+[| (6:cAA!head-x!cAA (6:ucAAcAc | (6:Acc!head-x!Acc (6:uAccAcA | (6:cAA!head-x!cAA (6:ucAAcAc | (6:Acc!head-x!Acc uA2
+|! (6:cAA!head-x!cAA (6:ucAAcAc | (6:Acc!head-x!Acc (6:uAccAcA | (6:cAA!head-x!cAA (6:cAA!head-x!cAA | "^ritardando"!<(!(3:.c.A.c (3:.A.c.A!<)! |]!
+"\n\n\n"
+"2nd"
+[| (6:cAA!head-x!cAA (6:cc!head-x!AccA | (3:cA!head-x!c (3:Ac!head-x!A | (6:cAA!head-x!cAA ucA/2A/2 | "^flip left"(3:ccc "^flip right"(3:AAA
+|! (6:cAA!head-x!cAA (6:cc!head-x!AccA | (3:cA!head-x!c (3:Ac!head-x!A | (6:cAA!head-x!cAA ucA/2A/2 | "^flip left"(3:ccc "^flip right"(3:AAA |]!
+"\n\n\n"
+"3rd"
+[| "^flip left"(3:ccc "^flip right"(3:AAA | "^flip left"(3:ccc "^flip right"(3:AAA | \
+"^ritardando 2 bars" !<(!{/A}(3:c{/c}A{/A}c  {/c}(3:A{/A}c{/c}A | {/A}(3:c{/c}A{/A}c  !<)!{/c}uA2 |]
+%%newpage
+T: What's Old Is New Again
+T: Fanfare for Field Drum
+T: Page 3 of 3
+M: 4/4
+[| {/A}c{/c}A {/A}c{/c}A/uc/ | A/c/{/c}A !<(!(6:cAcAcA!<)! | uc{/c}A {/A}c{/c}A/uc/ | A/c/{/c}A {/A}c//c//A//A//c//c//A//A//
+
+
+

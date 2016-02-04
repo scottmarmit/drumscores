@@ -1,0 +1,48 @@
+X: 1
+T: Buskers #1
+T: Field Drum
+L: 1/16
+K: none stafflines=1
+V: 1 stem=down dyn=up clef=none
+U: R = ///
+U: r = //
+M: 4/4
+"1st"
+[|: !ff!c2c2 c2c2 \
+| A2A2 A2A2 \
+| !f! {/A}LcAcc {/c}LAcAA \
+| !mf! c/c/A/A/Lc2 A/A/c/c/LA2 !
+| !ff!c2c2 c2c2 \
+| A2A2 A2A2 \
+| !f! {/A}cLAcc {/c}ALcAA \
+| !mf! !<(! (3:cAc (3:AcA !<)! !ff! Lc4  :|] !
+"\n\n\n\n"
+"2nd"
+[|: !f! [V:1 gstem=down] Lc2{AA}cA Lc2Ac \
+| !f! LA2{cc}Ac LA2cA \
+| !mp! [V:1 gstem=up] !<(! {/A}(3:c2A2c2 {/c}(3:A2c2A2 !<)! \
+| !f! {/A}cc{/c}AA {/A}Lc4 !
+| !f! [V:1 gstem=down] Lc2{AA}cA Lc2Ac \
+| !f! LA2{cc}Ac LA2cA \
+| !f! [V:1 gstem=up] {/A}cLAcc {/c}ALcAA \
+| !mf! !<(! (3:cAc (3:AcA !<)! !ff! Lc4  :|] !
+"\n\n\n\n"
+"3rd"
+[|: !mf! LcAcc !p! !<(! A/A/c/c/A/A/c/c/ !<)! \
+| !mf! LAcAA !p! !<(! c/c/A/A/c/c/A/A/ !<)! \
+| !f! LcAcc {/c}LAcAA \
+| !mf! c/c/A/A/Lc2 A/A/c/c/LA2 !
+| !mf! LcAcc !p! !<(! A/A/c/c/A/A/c/c/ !<)! \
+| !mf! LAcAA !p! !<(! c/c/A/A/c/c/A/A/ !<)! \
+| !f! cLAcc {/c}ALcAA \
+| !mf! !<(! (3:cAc (3:AcA !<)! !ff! Lc4  :|] !
+"\n\n\n\n"
+"4th"
+[|: !f! {/A}LcAc{/c}LA !p! cA{/A}cA \
+| !f! {/c}LAcA{/A}Lc !p! Ac{/c}Ac \
+| !p! [V:1 gstem=up] !<(! {/A}(3:c2A2c2 {/c}(3:A2c2A2 !<)! \
+| !f! {/A}cc{/c}AA {/A}Lc4 !
+| !f! {/A}LcAc{/c}LA !p! cA{/A}cA \
+| !f! {/c}LAcA{/A}Lc !p! Ac{/c}Ac \
+| !f! [V:1 gstem=up] {/A}cLAcc {/c}ALcAA \
+| !mf! !<(! (3:cAc (3:AcA !<)! !ff! Lc4  :|] !

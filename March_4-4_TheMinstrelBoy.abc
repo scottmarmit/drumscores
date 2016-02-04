@@ -1,0 +1,20 @@
+X: 1
+T: The Minstrel Boy
+T: March, Field Drum
+M: 4/4
+L: 1/16
+K: none stafflines=1
+V: 1 stem=down dyn=up clef=none
+U: R = ///
+U: r = //
+"1st"
+[|: {/A}uc2(3:AcA uc2(3:AcA cuAcA cuAcA | {/A}uc2(3:AcA c2{/c}Auc AA{/A}c2 {/A}cuAcc
+|! {/c}uA2{/A}("_O5"rc2 c2){/A}("_O5"rc2 c)uAc2 [V:1 gstem=down]{AA}cuA.c.A | [1 [V:1 gstem=up]uc("_C19"rA2> Rc4 uc4) z4 :|] \
+[2 [V:1 gstem=up]uc("_C19"rA2> Rc4 uc4) A2A2 |!
+"\n\n\n"
+"2nd"
+[| !<(!("_O8"Rc4 "_O14"Ru(c4) uA2)A2 A2A2 | !<(!("_O9"Rc4 "_O14"Ru(c4) uA4) A2A2 |
+|! {/A}ucAcuA [V:1 gstem=down]uc2{cc}A2 | {AA}ucAcuA uc2{cc}A2 | {AA}ucAc2 {cc}uAcA2 | {AA}uc4 A2A2
+|! [V:1 gstem=up]{/A}uc2(3:AcA uc2(3:AcA cuAcA cuAcA | {/A}uc2(3:AcA c2{/c}Auc AA{/A}c2 {/A}cuAcc
+|! {/c}uA2{/A}("_O5"rc2 c2){/A}("_O5"rc2 c)uAc2 [V:1 gstem=down]{AA}cuA.c.A
+| [V:1 gstem=up]uc("_C19"rA2> Rc4 uc8) |]
