@@ -2,7 +2,7 @@
 
 beginps
 
-/flamaccent{
+/tallaccent{
     1.2 SLW M -3 7 RM
     6 2 RL -6 2 RL stroke
 }!
@@ -66,7 +66,7 @@ deco hat 3 hat 0 0 0
 deco uhat 3 uhat 0 0 0
 deco chip( 7 - 0 0 0
 deco chip) 7 chip 0 0 0
-deco fl 0 flam 0 0 0
-deco fa 0 flamaccent 0 0 0
+deco flam 0 flam 0 0 0
+deco tallaccent 0 tallaccent 0 0 0
 
 % end
