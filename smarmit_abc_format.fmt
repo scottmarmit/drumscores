@@ -2,6 +2,19 @@
 
 beginps
 
+/flamaccent{
+    1.2 SLW M -3 7 RM
+    6 2 RL -6 2 RL stroke
+}!
+
+/flam{
+    2.0 setlinewidth
+    moveto
+    0 0 rmoveto
+    0 5.0 rlineto
+    stroke
+}!
+
 /myaccent{
     1.2 SLW M -4 0 RM
     6 2 RL -6 2 RL stroke
@@ -53,5 +66,7 @@ deco hat 3 hat 0 0 0
 deco uhat 3 uhat 0 0 0
 deco chip( 7 - 0 0 0
 deco chip) 7 chip 0 0 0
+deco fl 0 flam 0 0 0
+deco fa 0 flamaccent 0 0 0
 
 % end
