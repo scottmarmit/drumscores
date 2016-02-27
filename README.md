@@ -3,40 +3,39 @@ Scott Armit's ABC Field Drum Scores
 
 # Overview
 
-Visit http://abcnotation.com/ for more information on the ABC notation system.
+ABC Notation is a text-based music notation system: http://abcnotation.com/
 
-# EasyABC
+In order to actually render the text into music, you use implementation software to convert it. I use [```abcm2ps```](http://moinejf.free.fr/)
 
-While you can of course edit ABC files in an editor and use tools like abcm2ps to render into viewable format, you can also use [EasyABC](http://www.nilsliberg.se/ksp/easyabc/) to view the results of your edits in realtime.
+# OSX Installation
 
-# OSX
+First install [Homebrew](http://brew.sh/) if you haven't already. If you're a developer, you likely have it already.
 
-These steps rely on [Homebrew](http://brew.sh/).
-
-## abcm2ps
-
-ABC itself is just a standard that you use in a simple text file. To convert that to music you need a program to convert it. I use [```abcm2ps```](http://moinejf.free.fr/).
+Now you can install abcm2ps:
 
 ```$ brew install abcm2ps```
 
 Then you can convert your ABC file to PS with:
 
-```$ abcm2ps -O= -F smarmit_abc_format.fmt March_4-4_RowanTree.abc```
+```$ abcm2ps -O= -F monolinear_abc_format.fmt My_Awesome_Tune.abc```
 
 ... note the format file which is explained below.
 
-## Preview
+# EasyABC
 
-The OSX application Preview, renders PostScript files. So you can convert ABC to PS, then open it in Preview and save as PDF.
+While you can of course edit ABC files in an editor and use tools like abcm2ps to render into viewable format, you can also use [EasyABC](http://www.nilsliberg.se/ksp/easyabc/) to view the results of your edits in realtime.
 
-## Automating PS to PDF with ```pstopdf```
+## Settings
 
-Recent versions of OSX come with pstopdf which does the conversion for PS to, well PDF. To convert a PS file to PDF just:
+If you want to use my format file for monolinear composing:
 
-```$ pstopdf March_4-4_OpenTheGates.ps```
+* Start EasyABC
+* Open "ABC Settings..." under Settings
+* Fill in ```abcm2ps executable:``` with ```/usr/local/bin/abcm2ps``` if you installed with ```brew``` above
+* Fill in ```abcm2ps format file:``` with ```<path to this git clone>/monolinear_abc_format.fmt```
 
-... which results in a file in the same directory named ```March_4-4_OpenTheGates.pdf```
+# Monolinear Format File
 
-# Format File
+In order to display some of the more common decorations used in Dr. Berger's monolinear drum notation, a customized format file is needed.
 
-As shown in examples above I use a file with common formatting options. These options could also be put directly in every score but these are standard and so to simplify, I keep them in that file: ```smarmit_abc_format.fmt```
+```monolinear_abc_format.fmt``` contains some of these customizations.
