@@ -6,46 +6,46 @@ T: Arrangement by Scott Armit
 M: 4/4
 L: 1/16
 K: none stafflines=1
-V:S stem=down dyn=up clef=none snm="S"
-V:B stem=down dyn=up clef=none snm="B"
+V:S stem=down gstem=down dyn=up clef=none snm="S"
+V:B stem=down gstem=down dyn=up clef=none snm="B"
 U: R = ///
 U: r = //
-U: L = +hit+
+U: V = +tallaccent+
 P:1
 V:S
-  [| {/A}Lc2Ac {/c}LA2cA {/A}c2{/c}A2 {/A}LcAcc \
-  | {/c}A2{/A}c2 {/c}LAcAA {/A}LcAcA {/A}cc{/c}AA \
-  | {/A}Lc2Ac {/c}LA2cA {/A}c2{/c}A2 {/A}LcAcc \
-  | {/c}A2{/A}c2 {/c}ALcAc {/c}LA4 "^9"(Rc4 !
-  | Lc2)Ac {/c}LA2cA {/A}c2{/c}A2 {/A}LcAcc \
-  | {/c}A2{/A}c2 {/c}LAcAA {/A}LcAcA {/A}cc{/c}AA \
-  | {/A}Lc2Ac {/c}LA2cA {/A}c2{/c}A2 {/A}LcAcc \
-  | {/c}A2{/A}c2 {/c}ALcAc {/c}LA4 z2"^7"(rA2 |]
+  [| !flam!Vc2Ac !flam!VA2cA !flam!c2!flam!A2 !flam!VcAcc \
+  | !flam!A2!flam!c2 !flam!VAcAA !flam!VcAcA !flam!cc!flam!AA \
+  | !flam!Vc2Ac !flam!VA2cA !flam!c2!flam!A2 !flam!VcAcc \
+  | !flam!A2!flam!c2 !flam!AVcAc !flam!VA4 (Rc4 !
+  | Vc2)Ac !flam!VA2cA !flam!c2!flam!A2 !flam!VcAcc \
+  | !flam!A2!flam!c2 !flam!VAcAA !flam!VcAcA !flam!cc!flam!AA \
+  | !flam!Vc2Ac !flam!VA2cA !flam!c2!flam!A2 !flam!VcAcc \
+  | !flam!A2!flam!c2 !flam!AVcAc !flam!VA4 z2"^7"(rA2 |]
 V:B
-  [| Lc4 LA4 c2A2 LcAcc \
-  | A2c2 LAcAA Lc4 z4 \
-  | Lc4 LA4 c2A2 LcAcc \
-  | A2c2 ALcAc LA4 c2A2 !
-  | Lc4 LA4 c2A2 LcAcc \
-  | A2c2 LAcAA Lc4 z4 \
-  | Lc4 LA4 c2A2 LcAcc \
-  | A2c2 LAcAA Lc4 c2A2 |]
+  [| Vc4 VA4 c2A2 VcAcc \
+  | A2c2 VAcAA Vc4 z4 \
+  | Vc4 VA4 c2A2 VcAcc \
+  | A2c2 AVcAc VA4 c2A2 !
+  | Vc4 VA4 c2A2 VcAcc \
+  | A2c2 VAcAA Vc4 z4 \
+  | Vc4 VA4 c2A2 VcAcc \
+  | A2c2 VAcAA Vc4 c2A2 |]
 P:2
 V:S
-  ![| Lc2){/c}A2 {/c}c2{/c}LA2 {/A}c2{/c}A2 {/A}Lc2"^7"(rA2 \
-  | Lc2){/c}A2 {/c}Lc2{/c}ALc Ac{/c}A2 {/A}Lc2"^7"(rA2 \
-  | Lc2){/c}A2 {/c}c2{/c}LA2 {/A}c2{/c}A2 {/A}Lc2"^7"(rA2 \
-  | c2){/c}LA2 {/A}cLAcA {/A}Lc4 z2"^7"(rA2 !
-  [| Lc2){/c}A2 {/c}c2{/c}LA2 {/A}c2{/c}A2 {/A}Lc2"^7"(rA2 \
-  | Lc2){/c}A2 {/c}Lc2{/c}ALc Ac{/c}A2 {/A}Lc2"^7"(rA2 \
-  | Lc2){/c}A2 {/c}c2{/c}LA2 {/A}c2{/c}A2 {/A}Lc2"^7"(rA2 \
-  | c2){/c}LA2 {/A}cLAcA {/A}Lc4 z4 |]
+  ![| Vc2)!flam!A2 !flam!c2!flam!VA2 !flam!c2!flam!A2 !flam!Vc2"^7"(rA2 \
+  | Vc2)!flam!A2 !flam!c2!flam!AVc Ac!flam!A2 !flam!c2"^7"(rA2 \
+  | Vc2)!flam!A2 !flam!c2!flam!VA2 !flam!c2!flam!A2 !flam!Vc2"^7"(rA2 \
+  | c2)!flam!VA2 !flam!cVAcA !flam!Vc4 z2"^7"(rA2 !
+  [| Vc2)!flam!A2 !flam!c2!flam!VA2 !flam!c2!flam!A2 !flam!Vc2"^7"(rA2 \
+  | Vc2)!flam!A2 !flam!c2!flam!AVc Ac!flam!A2 !flam!c2"^7"(rA2 \
+  | Vc2)!flam!A2 !flam!c2!flam!VA2 !flam!c2!flam!A2 !flam!Vc2"^7"(rA2 \
+  | c2)!flam!VA2 !flam!cVAcA !flam!Vc4 z4 |]
 V:B
-  ![| Lc2A2 c2LA2 c2A2 Lc4 \
-  | Lc2A2 Lc2ALc AcA2 Lc4 \
-  | Lc2A2 c2LA2 c2A2 Lc4 \
-  | c2LA2 cLAcA Lc4 z4 !
-  [| Lc2A2 c2LA2 c2A2 Lc4 \
-  | Lc2A2 Lc2ALc AcA2 Lc4 \
-  | Lc2A2 c2LA2 c2A2 Lc4 \
-  | c2LA2 cLAcA Lc4 z4 |]
+  ![| Vc2A2 c2VA2 c2A2 Vc4 \
+  | Vc2A2 Vc2AVc AcA2 Vc4 \
+  | Vc2A2 c2VA2 c2A2 Vc4 \
+  | c2VA2 cVAcA Vc4 z4 !
+  [| Vc2A2 c2VA2 c2A2 Vc4 \
+  | Vc2A2 Vc2AVc AcA2 Vc4 \
+  | Vc2A2 c2VA2 c2A2 Vc4 \
+  | c2VA2 cVAcA Vc4 z4 |]

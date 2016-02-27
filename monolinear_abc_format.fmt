@@ -3,8 +3,12 @@
 beginps
 
 /tallaccent{
-    1.2 SLW M -3 7 RM
-    6 2 RL -6 2 RL stroke
+    1.2 setlinewidth
+    moveto
+    -3 7 rmoveto
+    6 2 rlineto
+    -6 2 rlineto
+    stroke
 }!
 
 /flam{
@@ -13,6 +17,15 @@ beginps
     0 0 rmoveto
     0 5.0 rlineto
     stroke
+}!
+
+/cr{
+    /Helvetica findfont
+    16 scalefont
+    setfont
+    moveto
+    -6.5 -20 rmoveto
+    (z) show
 }!
 
 /myaccent{
@@ -68,5 +81,6 @@ deco chip( 7 - 0 0 0
 deco chip) 7 chip 0 0 0
 deco flam 0 flam 0 0 0
 deco tallaccent 0 tallaccent 0 0 0
+deco cr 0 cr 0 0 0
 
 % end

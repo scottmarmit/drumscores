@@ -4,17 +4,26 @@ T: Written by Ed Lemley in 1934
 M: 2/4
 L: 1/16
 K: none stafflines=1
-V: 1 stem=down dyn=up clef=none
+V: S stem=down gstem=down dyn=up clef=none snm="S"
 U: R = //
 U: r = //
-"All rolls open\n"
-% 1st
-("_7"rA2 [|: .c2)("_7"rA2 .c2){/A}cuA | cA{/A}cc {/c}A2("_7"rA2 | uc)Acc {/c}uAcAA | {/A}c2{/A}cuA cA{/A}cc
-|! {/c}A2("_7"rA2 .c2){/A}cuA | cA{/A}cc {/c}AA{/A}c2 | {/A}ucAcc {/c}uAcAA
-| [1 {/A}.cc{/c}AA {/A}c2("_7"rA2 :|][2 !<(!{/A}cc{/c}AA {/A}cc{/c}AA!<)! |!
-% 2nd
-"\n\n\n"
-[|: {/A}uc2("_7"rA2 uc2)("_7"rA2 | uc)uAcA {/A}c2("_7"rA2 | uc)Auc2 {/c}uAcuA2 | {/A}c2{/A}cuA cA{/A}cc
-|! {/c}uA2("_7"rA2 .c2){/A}cuA | cA{/A}cc {/c}AA{/A}c2 | {/A}ucAcc {/c}uAcAA
-| [1 !<(!{/A}cc{/c}AA {/A}cc{/c}AA!<)! :|][2 {/A}.cc{/c}AA {/A}uc4 |
-
+U: V = +tallaccent+
+P:1
+V:S
+  ("^7"rA2 [|: Vc2)("^7"rA2 Vc2)!flam!cVA \
+  | cA!flam!cc !flam!A2("^7"rA2 \
+  | Vc)Acc !flam!VAcAA \
+  | !flam!c2!flam!cVA cA!flam!cc !  | !flam!VA2("^7"rA2 Vc2)!flam!cVA \
+  | cA!flam!cc !flam!AA!flam!c2 \
+  | !flam!VcAcc !flam!VAcAA \
+  | [1 !flam!.cc!flam!AA !flam!Vc2("^7"rA2 :|][2 !<(!!flam!cc!flam!AA !flam!cc!flam!AA!<)! |] !
+P:2
+V:S
+  [|: !flam!Vc2("^7"rA2 Vc2)("^7"rA2 \
+  | Vc)VAcA !flam!c2("^7"rA2 \
+  | Vc)AVc2 !flam!VAcVA2 \
+  | !flam!c2!flam!cVA cA!flam!cc !
+  | !flam!VA2("^7"rA2 Vc2)!flam!cVA \
+  | cA!flam!cc !flam!AA!flam!c2 \
+  | !flam!VcAcc !flam!VAcAA \
+  | [1 !<(!!flam!cc!flam!AA !flam!cc!flam!AA!<)! :|][2 !flam!.cc!flam!AA !flam!Vc4 |]

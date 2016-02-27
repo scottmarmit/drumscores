@@ -5,46 +5,46 @@ T: Field Drums
 M: 4/4
 L: 1/16
 K: none stafflines=1
-V:S stem=down dyn=up clef=none snm="S"
-V:B stem=down dyn=up clef=none snm="B"
+V:S stem=down gstem=down dyn=up clef=none snm="S"
+V:B stem=down gstem=down dyn=up clef=none snm="B"
 U: R = ///
 U: r = //
-U: L = +hit+
+U: V = +tallaccent+
 P:1
 V:S
-  ("^7"rA2 | Lc4) {/c}(3:2A2{/A}c2{/c}A2 {/A}Lc2{/c}LA2 z2 .c.A \
-  | Lc2Ac {/c}A2{/A}c2 {/c}ALcAc {/c}A2("^5"rc2 \
-  | Lc2)"^5"(rA2 A)LcA2 [V:S gstem=down] {c/c/}AcLA2 z2 "^7"(rc2 \
-  | [V:S gstem=up] LA2)("^13"rc2 Rc4 Lc)AcLA cA{/A}c{/c}A !
-  | {/A}Lc4 {/c}(3:2A2{/A}c2{/c}A2 {/A}Lc2{/c}LA2 z2 .c.A \
-  | Lc2Ac {/c}A2{/A}c2 {/c}ALcAc {/c}A2("^5"rc2 \
-  | Lc2)("^9"rA2 rA2 A)c LA2("^9"rc2 rc2 c)A \
-  | Lc2Ac {/c}AA{/A}c2 {/c}LA4 z2 ! |]
+  ("^7"rA2 | Vc4) !flam!(3:2A2!flam!c2!flam!A2 !flam!Vc2!flam!VA2 z2 .c.A \
+  | Vc2Ac !flam!A2!flam!c2 !flam!AVcAc !flam!A2("^5"rc2 \
+  | Vc2)"^5"(rA2 A)VcA2 {cc}AcVA2 z2 "^7"(rc2 \
+  | VA2)("^13"rc2 Rc4 Vc)AcVA cA!flam!c!flam!A !
+  | !flam!Vc4 !flam!(3:2A2!flam!c2!flam!A2 !flam!Vc2!flam!VA2 z2 .c.A \
+  | Vc2Ac !flam!A2!flam!c2 !flam!AVcAc !flam!A2("^5"rc2 \
+  | Vc2)("^9"rA2 rA2 A)c VA2("^9"rc2 rc2 c)A \
+  | Vc2Ac !flam!AA!flam!c2 !flam!VA4 z2 ! |]
 V:B
-  z2 | Lc4 (3:2A2c2A2 Lc2LA2 z2 .c.A \
-  | Lc4 z4 ALcAc A4 \
-  | Lc4 ALcAc AcLA2 z4 \
-  | LA4 z4 LcAcLA cAcA !
-  | Lc4 (3:2A2c2A2 Lc2LA2 z2 .c.A \
-  | Lc4 z4 ALcAc A4 \
-  | Lc4 z2 Ac LA4 z2 cA \
-  | Lc2Ac AAc2 LA4 z2 ! |]
+  z2 | Vc4 (3:2A2c2A2 Vc2VA2 z2 .c.A \
+  | Vc4 z4 AVcAc A4 \
+  | Vc4 AVcAc AcVA2 z4 \
+  | VA4 z4 VcAcVA cAcA !
+  | Vc4 (3:2A2c2A2 Vc2VA2 z2 .c.A \
+  | Vc4 z4 AVcAc A4 \
+  | Vc4 z2 Ac VA4 z2 cA \
+  | Vc2Ac AAc2 VA4 z2 ! |]
 P:2
 V:S
-  cA | {/A}Lc2("^13"rA2 RA4 LA2)"^13"(rc2 Rc4  \
-  | Lc2)Ac {/c}A2{/A}cLA cA{/A}c2 {/c}A2cA \
-  | {/A}Lc2("^13"rA2 RA4 LA2)("^13"rc2 Rc4 \
-  | Lc2)Ac {/c}AA{/A}c2 {/c}LA4 {/A}cc{/c}AA !
-  | {/A}Lc2("^13"rA2 RA4 LA2)("^13"rc2 Rc4  \
-  | Lc2)Ac {/c}A2{/A}cLA cA{/A}c2 {/c}A2cA \
-  | {/A}Lc4 ("^9"RA4 A)Lc3 {/c}A2{/A}c2 \
-  | {/c}LA2cA {/A}c2{/c}A2 {/A}Lc8 ! |]
+  cA | !flam!Vc2("^13"rA2 RA4 VA2)"^13"(rc2 Rc4  \
+  | Vc2)Ac !flam!A2!flam!cVA cA!flam!c2 !flam!A2cA \
+  | !flam!Vc2("^13"rA2 RA4 VA2)("^13"rc2 Rc4 \
+  | Vc2)Ac !flam!AA!flam!c2 !flam!VA4 !flam!cc!flam!AA !
+  | !flam!Vc2("^13"rA2 RA4 VA2)("^13"rc2 Rc4  \
+  | Vc2)Ac !flam!A2!flam!cVA cA!flam!c2 !flam!A2cA \
+  | !flam!Vc4 ("^9"RA4 A)Vc3 !flam!A2!flam!c2 \
+  | !flam!VA2cA !flam!c2!flam!A2 !flam!Vc8 ! |]
 V:B
-  cA | Lc4 z2 cA Lc4 z2 cA  \
-  | Lc2Ac A2cLA cAc2 A2cA \
-  | Lc4 z2 cA Lc4 z2 cA  \
-  | Lc2Ac AAc2 LA4 ccAA !
-  | Lc4 z2 cA Lc4 z2 cA  \
-  | Lc2Ac A2cLA cAc2 A2cA \
-  | Lc4 z4 z4 A2c2 \
-  | LA2cA c2A2 Lc8 |]
+  cA | Vc4 z2 cA Vc4 z2 cA  \
+  | Vc2Ac A2cVA cAc2 A2cA \
+  | Vc4 z2 cA Vc4 z2 cA  \
+  | Vc2Ac AAc2 VA4 ccAA !
+  | Vc4 z2 cA Vc4 z2 cA  \
+  | Vc2Ac A2cVA cAc2 A2cA \
+  | Vc4 z4 z4 A2c2 \
+  | VA2cA c2A2 Vc8 |]
