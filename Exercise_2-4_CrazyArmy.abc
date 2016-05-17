@@ -3,8 +3,7 @@ T: Crazy Army
 T: Written by Ed Lemley in 1934
 M: 2/4
 L: 1/16
-K: none stafflines=1
-V: S stem=down gstem=down dyn=up clef=none snm="S"
+K: none stafflines=1V: S stem=down gstem=down dyn=up clef=none snm="S"V: B stem=down gstem=down dyn=up clef=none snm="B"
 U: R = //
 U: r = //
 U: V = +tallaccent+
@@ -16,14 +15,55 @@ V:S
   | !flam!c2!flam!cVA cA!flam!cc !  | !flam!VA2("^7"rA2 Vc2)!flam!cVA \
   | cA!flam!cc !flam!AA!flam!c2 \
   | !flam!VcAcc !flam!VAcAA \
-  | [1 !flam!.cc!flam!AA !flam!Vc2("^7"rA2 :|][2 !<(!!flam!cc!flam!AA !flam!cc!flam!AA!<)! |] !
+  | [1 !flam!.cc!flam!AA !flam!Vc2("^7"rA2 :|][2 !<(!!flam!cc!flam!AA !flam!cc!flam!AA!<)! |] !V:B  z2 [|: Vc4 VA2cVA \  | z4 z4 \  | VcAcc VAcAA \  | c2cVA z4 !  | VA4 Vc2cVA \  | z4 z4 \  | VcAcc VAcAA \  | [1 ccAA Vc4 :|] [2 !<(!ccAA ccAA!<)! |] !
+%%vskip 60
 P:2
-V:S
-  [|: !flam!Vc2("^7"rA2 Vc2)("^7"rA2 \
+V:S  |: !flam!Vc2("^7"rA2 Vc2)("^7"rA2 \
   | Vc)VAcA !flam!c2("^7"rA2 \
   | Vc)AVc2 !flam!VAcVA2 \
   | !flam!c2!flam!cVA cA!flam!cc !
   | !flam!VA2("^7"rA2 Vc2)!flam!cVA \
   | cA!flam!cc !flam!AA!flam!c2 \
   | !flam!VcAcc !flam!VAcAA \
-  | [1 !<(!!flam!cc!flam!AA !flam!cc!flam!AA!<)! :|][2 !flam!.cc!flam!AA !flam!Vc4 |]
+  | [1 !<(!!flam!cc!flam!AA !flam!cc!flam!AA!<)! :|][2 !flam!.cc!flam!AA !flam!Vc4 |] !
+V:B  |: Vc4 VA4 \  | cVAcA c4 \  | VcAVc2 VAcVA2 \  | c2cVA z4 !  | VA4 Vc2cVA \  | z4 z4 \  | VcAcc VAcAA \  | [1 !<(!ccAA ccAA!<)! :|][2 ccAA Vc4 |] !
+%%newpage
+P:3
+V:S
+  ("^7"rA2 [|: Vc2)("^7"rA2 Vc2)V(3:2cAc \
+  | (3:2AcA Vcc !flam!A2("^7"rA2 \
+  | Vc)Acc !flam!VAcAA \
+  | !flam!c2V(3:2cAc (3:2AcA Vcc !
+  | !flam!VA2("^7"rA2 Vc2)V(3:2cAc \
+  | (3:2AcA Vcc !flam!AA!flam!c2 \
+  | !flam!VcAcc !flam!VAcAA \
+  | [1 !flam!cc!flam!AA !flam!Vc2("^7"rA2 :|][2 !<(!!flam!cc!flam!AA !flam!cc!flam!AA!<)! |] !
+V:B
+  z2 [|: Vc4 VA2cVA \
+  | z4 z4 \
+  | VcAcc VAcAA \
+  | c2cVA z4 !
+  | VA4 Vc2cVA \
+  | z4 z4 \
+  | VcAcc VAcAA \
+  | [1 ccAA Vc4 :|] [2 !<(!ccAA ccAA!<)! |] !
+%%vskip 60
+P:4
+V:S
+  |: !flam!Vc2("^7"rA2 Vc2)("^7"rA2 \
+  | (3:2Vc)Ac (3:2AcA Vc2("^7"rA2 \
+  | Vc)AVc2 !flam!VAcVA2 \
+  | !flam!c2(3:2VcAc (3:2AcAVcc !
+  | !flam!VA2("^7"rA2 Vc2)(3:2VcAc \
+  | (3:2AcA cc !flam!AA!flam!c2 \
+  | !flam!VcAcc !flam!VAcAA \
+  | [1 !<(!!flam!cc!flam!AA !flam!cc!flam!AA!<)! :|][2 !flam!cc!flam!AA !flam!c4 |] !
+V:B
+  |: Vc4 VA4 \
+  | cVAcA c4 \
+  | VcAVc2 VAcVA2 \
+  | c2cVA z4 !
+  | VA4 Vc2cVA \
+  | z4 z4 \
+  | VcAcc VAcAA \
+  | [1 !<(!ccAA ccAA!<)! :|][2 ccAA Vc4 |] !

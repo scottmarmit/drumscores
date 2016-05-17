@@ -20,11 +20,11 @@ beginps
 }!
 
 /cr{
-    /Helvetica findfont
-    16 scalefont
+    /Helvetica-Narrow
+    16 selectfont
     setfont
     moveto
-    -6.5 -20 rmoveto
+    -7 -18 rmoveto
     (z) show
 }!
 
