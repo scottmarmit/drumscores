@@ -1,0 +1,19 @@
+X: 1
+%%landscape 0
+T: Solo - The Fells Reservation
+T: Field Drums
+M: 2/4
+L: 1/16
+K: none stafflines=1
+V:S stem=down gstem=down dyn=up clef=none snm="S"
+V:B stem=down gstem=down dyn=up clef=none snm="B"
+U: R = ///
+U: r = //
+U: L = +hit+
+U: V = +tallaccent+
+P:1
+V:S
+  [|: !flam!c2!flam!A2 !flam!c2VA2 | cA!flam!cc !flam!AVc2A \
+  | !flam!cAc!flam!VA cA!flam!cVA | cA!flam!cc !flam!AVc2A \  | !flam!c2!flam!A2 !flam!c2VA2 | cA!flam!cc !flam!AVc2A \  | !flam!cAc!flam!VA cA!flam!cVA | cA!flam!c2 !flam!A2cA ! :|]
+V:B  [|: c2A2 c2VA2 | z4 AVc3 \  | cAcVA z4 | z4 AVc3 \  | c2A2 c2VA2 | z4 AVc3 \  | cAcVA z4 | cAc2 A2cA ! :|]
+P:2V:S  [|: (rc3A) cc (rA2  | Vc2)AA \  | !flam!cAc!flam!VA cA!flam!cVA | cA!flam!cc !flam!AVc2A \  | !flam!c2!flam!A2 !flam!c2VA2 | cA!flam!cc !flam!AVc2A \  | !flam!cAc!flam!VA cA!flam!cVA | cA!flam!c2 !flam!A2cA ! :|]V:B  [|: c2A2 c2VA2 | z4 AVc3 \  | cAcVA z4 | z4 AVc3 \  | c2A2 c2VA2 | z4 AVc3 \  | cAcVA z4 | cAc2 A2cA ! :|]

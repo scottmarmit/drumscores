@@ -1,0 +1,22 @@
+X: 1
+T: Growing Bracken
+T: Scott Armit 2016
+M: 3/4
+L: 1/16
+K: none stafflines=1V: S stem=down gstem=down dyn=up clef=none snm="S"V: B stem=down gstem=down dyn=up clef=none snm="B"
+U: R = //
+U: r = //
+U: V = +tallaccent+
+P:1
+V:S
+  [|: !flam!c2!flam!A2 !flam!("^7"rc3 A) Vc2("^7"rA2 \
+  | Vc2)Ac !flam!A2cA !flam!cA!flam!VA2 \ !
+  | !flam!VcAc!flam!A Vc2{AA}c!flam!A Vc2cA \   | Vc/A/c/A/c/A/c VA2("^7"rc2 A)cVA2 :|] !%%vskip 60P:2
+V:S  |: !flam!Vc2("^7"rA2 Vc2)("^7"rA2 \
+  | Vc)VAcA !flam!c2("^7"rA2 \
+  | Vc)AVc2 !flam!VAcVA2 \
+  | !flam!c2!flam!cVA cA!flam!cc !
+  | !flam!VA2("^7"rA2 Vc2)!flam!cVA \
+  | cA!flam!cc !flam!AA!flam!c2 \
+  | !flam!VcAcc !flam!VAcAA \
+  | [1 !<(!!flam!cc!flam!AA !flam!cc!flam!AA!<)! :|][2 !flam!.cc!flam!AA !flam!Vc4 |] !
