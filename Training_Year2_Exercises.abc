@@ -1,0 +1,40 @@
+X: 1
+T: Year 2 Exercises
+T: Scott Armit 2016
+M: 4/4
+L: 1/16
+K: none stafflines=1
+V: S stem=down gstem=down dyn=up clef=none
+U: R = //
+U: r = //
+U: V = +tallaccent+
+P:1 - Flam Roll
+M:4/4
+  [|: ("^9"!flam!rc4 Vc2)Ac ("^9"!flam!rA4 VA2)cA | ("^9"!flam!rc4 Vc2)Ac ("^9"!flam!rA4 VA2)cA :|] !
+%%vskip 10P:2 - Flam Roll Paradiddle
+M:4/4  [|: ("^9"!flam!rc4 Vc)Acc ("^9"!flam!rA4 VA)cAA | ("^9"!flam!rc4 Vc)Acc ("^9"!flam!rA4 VA)cAA :|] !
+%%vskip 10
+P:3 - Accented Roll
+M:4/4
+  [|: ("^     10"rVc3VA) Vc2Ac ("^     10"rVA3Vc) VA2cA | ("^     10"rVc3VA) Vc2Ac ("^     10"rVA3Vc) VA2cA :|] !
+%%vskip 10
+P:4 - Accented Roll Paradiddle
+M:4/4
+  [|: ("^     10"rVc3VA) VcAcc ("^     10"rVA3Vc) VAcAA | ("^     10"rVc3VA) VcAcc ("^     10"rVA3Vc) VAcAA :|] !
+%%vskip 10
+P:5 - Swiss Triplet
+M:4/4
+  [|: (3:2!flam!ccVAcA !flam!c2Ac (3:2!flam!AAVcAc !flam!A2cA | (3:2!flam!ccVAcA !flam!c2Ac (3:2!flam!AAVcAc !flam!A2cA :|] !
+%%vskip 10
+P:6 - Ruff
+M:4/4
+  [|: Vc2{A/c/A/}cA Vc2Ac VA2{c/A/c/}Ac VA2cA | Vc2{A/c/A/}cA Vc2Ac VA2{c/A/c/}Ac VA2cA :|] !
+%%vskip 10
+P:7 - Swiss Ruff
+M:4/4
+  [|: Vc2{A/c/c/}Ac VA2{c/A/A/}cA Vc2{A/c/c/}Ac VA4 | VA2{c/A/A/}cA Vc2{A/c/c/}Ac VA2{c/A/A/}cA Vc4 :|]
+%%vskip 10
+P:8 - All together now
+M:4/4
+  [|: ("^9"!flam!rc4 c)VAcA ("^     10"rVc3VA) Vc2Ac |  VA2{c/A/A/}cA Vc2{A/c/A/}cA (3:2!flam!ccVAcA !flam!Vc2Ac !
+  | ("^9"!flam!rA4 A)VcAc ("^  10"rVA3Vc) VA2cA |  Vc2{A/c/c/}Ac VA2{c/A/c/}Ac (3:2!flam!AAVcAc !flam!VA2cA :|]

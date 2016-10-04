@@ -14,25 +14,4 @@ V:S
   [|: !flam!c2!flam!A2 !flam!("^7"rc3 A) Vc2("^7"rA2 \
   | Vc2)Ac !flam!A2!flam!cVA c!flam!AVc2 !
   | !flam!VcAc!flam!A Vc2{AA}c!flam!A Vc2cA \
-  | "^8"(rVc3c) VA2("^7"rc2 A)cVA2 :|] !
-V:B
-  [|: c2A2 Vc4 z2 cA \
-  | Vc2A2 Vc4 z2 cA \
-  | c2A2 Vc4 z2 cA \
-  | VcAcVA Vc4 z4 :|] !
-%%vskip 60
-P:2
-V:S
-  [|: !flam!VcAc!flam!VA cA!flam!c2 {A/c/c/}VA2!flam!c2 \
-  | !flam!A2{cc}A!flam!c z{AA}c!flam!A2 {cc}AVcVA2!
-  | !flam!c/c/Ac!flam!A/A/ cA!flam!c/c/A Vc2!flam!A2 \
-  | [1 !flam!Vc4 z4 z4 :|] \
-M: 5/4
-  [2 !flam!Vc4 z4 z4 z4 !flam!c2!flam!A2 |] !
-V:B
-  [|: Vc3VA z4 c2A2 \
-  | VcAcVA cAVc2 AcVA2 \
-  | Vc3VA z4 c2A2 \
-  | [1 VcAcVA VcAcVA Vc4 :|] \
-M: 5/4
-  [2 VcAcVA VcAcVA Vc4 z4 c2A2 |] !
+  | "^    8"(rVc3c) VA2("^7"rc2 A)cVA2 :|] !V:B  [|: c2A2 Vc4 z2 cA \  | Vc2A2 Vc4 z2 cA \  | c2A2 Vc4 z2 cA \  | VcAcVA Vc4 z4 :|] !%%vskip 60P:2V:S  [|: !flam!VcAc!flam!VA cA!flam!c2 {A/c/c/}VA2!flam!c2 \  | !flam!A2{cc}A!flam!c z{AA}c!flam!A2 {cc}AVcVA2!  | !flam!c/c/Ac!flam!A/A/ cA!flam!c/c/A Vc2!flam!A2 \  | [1 !flam!Vc4 z4 z4 :|] \M: 5/4  [2 !flam!Vc4 z4 z4 z4 !flam!c2!flam!A2 |] !V:B  [|: Vc3VA z4 c2A2 \  | VcAcVA cAVc2 AcVA2 \  | Vc3VA z4 c2A2 \  | [1 VcAcVA VcAcVA Vc4 :|] \M: 5/4  [2 VcAcVA VcAcVA Vc4 z4 c2A2 |] !
