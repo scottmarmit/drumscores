@@ -13,7 +13,7 @@ P:1
 V:S
   [|: !flam!c2!flam!A2 !flam!("^9"rc4 c2)!flam!A2 !flam!("^9"rc4 \
   | Vc)Ac!flam!A Vc2!flam!A2 !flam!VcAc!flam!VA cA!flam!c2 !
-  | !flam!A2!flam!c2 !flam!VA2("^7"rc2 VA)cA2 ("^5"rc2c2) \
+  | !flam!A2!flam!c2 !flam!VA2("^7"rc2 VA)cA2 z4 \
   | !flam!AVcAVc AVcVA2 ("^13 closed"Rc4 Vc4)  :|] !
 V:B
   [|: c2A2 Vc4 A2c2 VA4 \

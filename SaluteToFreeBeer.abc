@@ -1,0 +1,27 @@
+X: 1
+T: The Fells Reservation Drummer's Salute
+T: Scott Armit 2017
+L: 1/16
+K: none stafflines=1V: S stem=down gstem=down dyn=up clef=none snm="S"
+V: B stem=down gstem=down dyn=up clef=none snm="B"
+U: R = ///
+U: r = //
+U: V = +tallaccent+
+P:Intro
+V:SM:6/4  [| "Foxy Rolls"("^9"Rc4 Vc4) ("^9"Rc4 Vc4) ("^17"Rc4 (Rc4) !P:1
+M:4/4
+  Vc2)!flam!A2 !flam!VcAc!flam!A z!flam!c2>!flam!VA2 cA"staccato"!flam!cVA \  | Vc2!flam!A2 !flam!VcAc!flam!VA cA!flam!VcA c!flam!VAcA \  | !flam!Vc2!flam!A2 !flam!VcAc!flam!A z!flam!c2>!flam!VA2 cA"staccato"!flam!cVA \  | Vc2!flam!A2 !flam!VcAc!flam!VA cA!flam!VcA c!flam!VAcA |] !
+P:2
+V:S
+M:4/4
+  !flam!Vc("^9"rA rc2 (rcVA))cA !flam!VcAc!flam!VA cA"staccato"!flam!cVA \
+  | Vc("^9"rA rc2 (rcVA))cA !flam!VcAc!flam!VA cA"staccato"!flam!cVA
+  | Vc("^9"rA rc2 (rcVA))cA !flam!Vc("^9"rA rc2 (rcVA))cA \
+  | !flam!VcA/A/c/c/VA VcA/A/c/c/VA VcA/A/c/c/VA VcA/A/c/c/VA |] !
+P:3
+V:S
+M:4/4
+  !flam!Vc("^9"rA rc2 (rcVA))cA !flam!VcAc!flam!VA cA"staccato"!flam!cVA \
+  | Vc("^9"rA rc2 (rcVA))cA !flam!VcAc!flam!VA cA"staccato"!flam!cVA
+  | Vc("^9"rA rc2 (rcVA))cA !flam!Vc("^9"rA rc2 (rcVA))cA \
+  | !flam!VcA/A/c/c/VA cA/A/c/c/VA cA/A/c/c/VA cA/A/c/c/VA |] !

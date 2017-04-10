@@ -1,6 +1,5 @@
 X: 1
 T: Simple Time Master Score
-T: ... and even works for 2/4!!
 T: March, Field Drums
 M: C
 L: 1/16
@@ -11,25 +10,46 @@ U: R = ///
 U: r = //
 U: V = +tallaccent+
 P:1
-""
 V:S
-   !flam!Vc2(3:AcA c2!flam!A2 !flam!cVAcc !flam!AVcAA \
-   | !flam!Vc2("^5"rA2 VA2)(rc2 Vc2)(3:AcA (3:cAVcVA2 !
+   !flam!Vc2(3:AcA c2!flam!A2 !flam!cVAcc !flam!AVcAA 
+   | !flam!Vc2("^5"rA2 VA2)(rc2 Vc2)(3:AcA (3:cAVcVA2 \
    | !flam!Vc2(3:AcA c2!flam!A2 !flam!cVAcc !flam!AVcAA \
    | !flam!Vc2A2 !flam!(3:A2c2c2 !flam!Vc4 z4 :|] !
 V:B
    Vc2(3:AcA c4 cVAcc AVcAA \
-   | Vc4 VA4 Vc2(3:AcA (3:cAVcVA2 !
+   | Vc4 VA4 Vc2(3:AcA (3:cAVcVA2 \
    | Vc2(3:AcA c4 cVAcc AVcAA \
    | Vc4 (3:A2c2A2 Vc4 z4 :|] !
 P:2
 V:S
    ("^7"rc2>VA2) Vc2("^9"rA2 rA2VA2) !flam!cc!flam!AA \
-   | !flam!Vc2("^5"rA2 VA2)("^5"rc2 Vc2)(3:AcA (3:cAVcVA2 !
+   | !flam!Vc2("^5"rA2 VA2)("^5"rc2 Vc2)(3:AcA (3:cAVcVA2 \
    | ("^7"rc2>VA2) Vc2("^9"rA2 rA2VA2) !flam!cc!flam!AA \
    | !flam!Vc2A2 !flam!(3:A2c2c2 !flam!Vc4 z4 :|] !
 V:B
    z4 Vc4 z2Vc2 ccAA \
-   | Vc4 VA4 Vc2(3:AcA (3:cAVcVA2 !
+   | Vc4 VA4 Vc2(3:AcA (3:cAVcVA2 \
    | z4 Vc4 z2Vc2 ccAA \
+   | Vc4 (3:A2c2A2 Vc4 z4 :|] !
+P:3
+V:S
+   !flam!Vc2{A/A/}cA Vc2!flam!VA2 {c/c/}AcVA2 ("^9"!flam!Rc4 \
+   | Vc2)("^5"rA2 VA2)("^5"rc2 Vc2)(3:AcA (3:cAVcVA2 \
+   | !flam!Vc2{A/A/}cA Vc2!flam!VA2 {c/c/}AcVA2 ("^9"!flam!Rc4 \
+   | Vc2)A2 !flam!(3:A2c2c2 !flam!Vc4 z4 :|] !
+V:B
+   Vc2Ac VA2Vc2 AcVA2 ccAA \
+   | Vc4 VA4 Vc2(3:AcA (3:cAVcVA2 \
+   | Vc2Ac VA2Vc2 AcVA2 ccAA \
+   | Vc4 (3:A2c2A2 Vc4 z4 :|] !
+P:4
+V:S
+   ("^17"Rc4 Rc4 Vc2)Ac !flam!A2("^5"r!flam!c2 \
+   | Vc2)("^5"rA2 VA2)("^5"rc2 Vc2)(3:AcA (3:cAVcVA2 \
+   ("^17"Rc4 Rc4 Vc2)Ac !flam!A2("^5"r!flam!c2 \
+   | Vc2)A2 !flam!(3:A2c2c2 !flam!Vc4 z4 :|] !
+V:B
+   z4 z4 Vc2Ac VA4 \
+   | Vc4 VA4 Vc2(3:AcA (3:cAVcVA2 \
+   | z4 z4 Vc2Ac VA4 \
    | Vc4 (3:A2c2A2 Vc4 z4 :|] !

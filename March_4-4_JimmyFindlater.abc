@@ -21,13 +21,4 @@ V:B
   | Vc4 z2 VcA Vc4 z2 VcA \
   | [1 VcAcVA cAV"dead"c2 z4 z4 :|] [2 Vc2A2 c2A2 Vc4 z4 !
 P:2
-V:S
-  [|: ("^7"RA2>Vc2) VAcAA Vc/A/c/A/(3:2ccA Vc2A2 \
-  | Vc2{A/c/c/}AVc Ac!flam!VA2 z2!flam!c2 z2!flam!A2 !
-  | !flam!VcAc!flam!VA cA"staccato"!flam!VcVA VcAc!flam!VA cA(3!flam!ccA \
-  | [1 Vc2{AA}cVA cA!flam!Vc2 z2("^9"RA2 RA2VA2) :|] [2 Vc("^19"RA Rc2 Rc4 Vc4) z4 !
-V:B
-  [|: A2>c2 VAcAA Vc4 z4 \
-  | Vc2zVc AcVA2 z4 z4
-  | Vc4 z2 VcA Vc4 z2 VcA \
-  | [1 VcAcVA cAV"dead"c2 z4 z4 :|] [2 Vc2A2 c2A2 Vc4 z4 !
+V:S  [|: ("^7"RA2>Vc2) VAcAA Vc/A/c/A/(3:2ccA Vc2A2 \  | Vc2{A/c/c/}AVc Ac!flam!VA2 z2!flam!c2 z2!flam!A2 !  | !flam!VcAc!flam!VA cA"staccato"!flam!VcVA VcAc!flam!VA cA(3!flam!ccA \  | [1 Vc2{AA}cVA cA!flam!Vc2 z2("^9"RA2 RA2VA2) :|] [2 Vc("^19"RA Rc2 Rc4 Vc4) z4 !V:B  [|: A2>c2 VAcAA Vc4 z4 \  | Vc2zVc AcVA2 z4 z4  | Vc4 z2 VcA Vc4 z2 VcA \  | [1 VcAcVA cAV"dead"c2 z4 z4 :|] [2 Vc2A2 c2A2 Vc4 z4 !

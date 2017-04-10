@@ -19,6 +19,16 @@ beginps
     stroke
 }!
 
+/dbl{
+    2.0 setlinewidth
+    moveto
+    0 0 rmoveto
+    0 6.0 rlineto
+    1.0 setlinewidth
+    4 -4 rlineto
+    stroke
+}!
+
 /cr{
     /Helvetica-Narrow
     16 selectfont
@@ -33,7 +43,7 @@ beginps
     6 2 RL -6 2 RL stroke
 }!
 
-/hat{
+/hat {
     1.2 setlinewidth moveto -2.6 1.0 rmoveto
     2.6 6.0 rlineto
     2.6 -6.0 rlineto
@@ -80,6 +90,7 @@ deco uhat 3 uhat 0 0 0
 deco chip( 7 - 0 0 0
 deco chip) 7 chip 0 0 0
 deco flam 0 flam 0 0 0
+deco dbl 0 dbl 0 0 0
 deco tallaccent 0 tallaccent 0 0 0
 deco cr 0 cr 0 0 0
 
