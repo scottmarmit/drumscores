@@ -71,6 +71,9 @@ beginps
 
 endps
 
+postscript /dlw
+postscript {0.3 setlinewidth} bdef  % default: 0.7
+notespacingfactor 1
 partsbox 1
 partsspace 2.0cm
 topmargin 0.5cm
