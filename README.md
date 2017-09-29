@@ -21,6 +21,10 @@ Then you can convert your ABC file to PS with:
 
 ... note the format file which is explained below.
 
+## Compilation
+
+There's a chance the binary file `abcm2ps` does not work and throws errors on OSX. I've had this issue and had to follow the instructions for compiling from source, https://github.com/leesavide/abcm2ps/blob/master/INSTALL
+
 # EasyABC
 
 While you can of course edit ABC files in an editor and use tools like abcm2ps to render into viewable format, you can also use [EasyABC](http://www.nilsliberg.se/ksp/easyabc/) to view the results of your edits in realtime.
