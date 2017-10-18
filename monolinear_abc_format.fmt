@@ -23,9 +23,9 @@ beginps
     2.0 setlinewidth
     moveto
     0 0 rmoveto
-    0 6.0 rlineto
-    1.0 setlinewidth
-    4 -4 rlineto
+    0 8.0 rlineto
+    1.2 setlinewidth
+    4 -5 rlineto
     stroke
 }!
 
