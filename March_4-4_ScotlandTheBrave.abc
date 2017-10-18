@@ -1,0 +1,23 @@
+X: 1
+T: Scotland The Brave
+T: Scott Armit 2017
+M: 4/4
+L: 1/16
+K: none stafflines=1
+V: S stem=down gstem=down dyn=up clef=none snm="S"
+V: B stem=down gstem=down dyn=up clef=none snm="B"
+U: R = //
+U: r = //
+U: V = +tallaccent+
+P:1
+V:S
+  ("^7"RA2 [|: !f! Vc2)!p!!dbl!A2 !dbl!cAc!flam!A  Vc2!dbl!A2 !dbl!c2("^7"RA2 \
+  | Vc2)!flam!A2 !flam!cVAcA !flam!c2!flam!A2 !flam!c2 ("^7"RA2 \
+  | Vc2)!dbl!A2 !dbl!cAc!flam!A  Vc2!dbl!A2 !dbl!c2 ("^7"RA2 \
+  | Vc)("^5"RAA)c VA("^5"Rcc)A Vc2 :|] !
+V:B
+  
+[|: c)
+  | 
+  | 
+  | 
