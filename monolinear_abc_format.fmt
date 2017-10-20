@@ -82,7 +82,7 @@ rightmargin 0.3cm
 bottommargin 0.5cm
 titlefont Bookman-Demi 20
 subtitlefont Bookman-LightItalic 14
-annotationfont Bookman-LightItalic 14
+annotationfont Helvetica-Narrow 10
 footerfont Bookman-LightItalic 10
 footer "\u00a9 2015 Scott Armit - Last modified: $d"
 flatbeams 1

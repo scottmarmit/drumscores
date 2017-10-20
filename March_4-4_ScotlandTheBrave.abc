@@ -1,3 +1,4 @@
+%%landscape true
 X: 1
 T: Scotland The Brave
 T: Scott Armit 2017
@@ -9,14 +10,35 @@ V: B stem=down gstem=down dyn=up clef=none snm="B"
 U: R = ///
 U: r = //
 U: V = +tallaccent+
+I: linebreak $
 P:1
 V:S
-  ("^7"rA2 [|: "f" Vc2)"p"!dbl!A2 !dbl!cAc!flam!A  !f!Vc2!p!!dbl!A2 !dbl!c2("^7"rA2 \
+  ("^7"rA2 [|: !f!Vc2)!p!!dbl!A2 !dbl!cAc!flam!A  !f!Vc2!p!!dbl!A2 !dbl!c2("^7"rA2 \
   | !f! Vc2)!mf!!flam!A2 !flam!cVAcA !flam!c2!flam!A2 !flam!c2 ("^7"rA2 \
   | !f! Vc2)!p!!dbl!A2 !dbl!cAc!flam!A  !f!Vc2!p!!dbl!A2 !dbl!c2 ("^7"rA2 \
-  | !mp!{Vc)(}"^5"rA2A)c !mf! {VA)}("^5"rc2c)A !ff!VA2 :|] !
+  | !mp!{Vc)(}"^5"rA2A)c !mf! {VA)}("^5"rc2c)A !ff!Vc4 z4 :|] $
 V:B
   z2 [|: Vc4 cAcA Vc4 z4 \
-  | Vc2A2 cVAcA c2A2 c2 \
+  | Vc2A2 cVAcA c2A2 c4 \
   | Vc4 cAcA  Vc4 z4 \
-  | c2Ac A2cA Vc2 z4 :|] !
+  | c2Ac A2cA Vc4 z4 :|] $
+%%vskip 50
+P:2
+V:S
+  !flam!A2 [| !f!{Vc}("^9"RA3c) {VA}("^9"Rc3A) Vc2!p!!flam!A2 !flam!c2!flam!A2  \
+  | !mp!{Vc}("^9"RA3c) {VA}("^9"Rc3A) Vc2!p!!flam!A2 !flam!c2!flam!A2 \
+  | !f!{Vc}("^9"RA3c) {VA}("^9"Rc3A) (7:4VcAcAcAVc VA2("^5"r!flam!c2 \
+  | !mp!{Vc)(}"^5"rA2A)c !mf! {VA)}("^5"rc2c)A !ff!Vc4 z2 $
+  ("^7"rA2 | !f!Vc2)!p!!dbl!A2 !dbl!cAc!flam!A  !f!Vc2!p!!dbl!A2 !dbl!c2("^7"rA2 \
+  | !f! Vc2)!mf!!flam!A2 !flam!cVAcA !flam!c2!flam!A2 !flam!c2 ("^7"rA2 \
+  | !f! Vc2)!p!!dbl!A2 !dbl!cAc!flam!A  !f!Vc2!p!!dbl!A2 !dbl!c2 ("^7"rA2 \
+  | !mp!{Vc)(}"^5"rA2A)c !mf! {VA)}("^5"rc2c)A !ff!Vc4 z4 |] $
+V:B
+  z2 [| Vc3c VA3A  Vc4 z4 \
+  | Vc3c VA3A  Vc4 z4 \
+  | Vc3c VA3A  Vc4 z4 \
+  | c2Ac A2cA Vc4 z4 $
+  Vc4 cAcA Vc4 z4 \
+  | Vc2A2 cVAcA c2A2 c4 \
+  | Vc4 cAcA  Vc4 z4 \
+  | c2Ac A2cA Vc4 z4 |] $
