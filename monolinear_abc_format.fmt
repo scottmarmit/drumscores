@@ -84,7 +84,7 @@ titlefont Bookman-Demi 20
 subtitlefont Bookman-LightItalic 14
 annotationfont Helvetica-Narrow 10
 footerfont Bookman-LightItalic 10
-footer "\u00a9 2015 Scott Armit - Last modified: $d"
+footer "\u00a9 Scott Armit - Last modified: $d"
 flatbeams 1
 deco head-x 0 dsh0 0 0 0
 deco hit 3 myaccent 0 0 0

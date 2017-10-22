@@ -1,0 +1,34 @@
+%%landscape 1
+X: 1
+T: 3/4 Buskers
+M: 3/4
+L: 1/16
+K: none stafflines=1
+V: S stem=down gstem=down dyn=up clef=none snm="S"
+V: B stem=down gstem=down dyn=up clef=none snm="B"
+U: R = ///
+U: r = //
+U: V = +tallaccent+
+P:1
+V:S
+  ("^7"rA3Vc) VA2!flam!c2 !flam!A2!flam!Vc2 \
+  | !flam!A2("^7"rc2 A2)!flam!Vc2 !flam!AVcAc \
+  | !flam!A2("^7"rc2 A2)!flam!Vc2 !flam!AVcAc \
+  | !flam!AA!flam!Vc2 ("^9"RA4 VA4) "X2":|] !
+V:B
+  A3Vc VA4 z2Vc2 \
+  | A4 z2Vc2 AVcAc \
+  | A4  z2Vc2 AVcAc \
+  | AAVc2 AcAc VA4 :|] !
+%%vspace 20
+P:2
+V:S
+  ("^7"rA3Vc) VA2!flam!cc !flam!AA!flam!cc \
+  | !flam!VA2(3:2cAc VA2!flam!c2 z2!flam!A2  \
+  | !flam!Vc2(3:2AcA Vc2!flam!AA !flam!cc!flam!AA \
+  | !flam!cc!flam!VA2 ("^9"Rc4 Vc4) "X2":|] !
+V:B
+  A3Vc VA2cc AAcc \
+  | VA4 z2cVA cAcVA \
+  | Vc4 Vc2AA ccAA \
+  | AAVc2 AcAc VA4 :|] !

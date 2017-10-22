@@ -1,8 +1,7 @@
-X: 1
 %%landscape 1
-T: We're No Awa' Tae Bike Awa'
-T: Field Drums
-: 4/4
+X: 1
+T: We're No Awa' Tae Bide Awa'
+M: 4/4
 L: 1/16
 K: none stafflines=1
 V:S stem=down gstem=down dyn=up clef=none snm="S"
@@ -10,21 +9,23 @@ V:B stem=down gstem=down dyn=up clef=none snm="B"
 U: R = ///
 U: r = //
 U: V = +tallaccent+
+I: linebreak $
+P:1
 V:S
-  ("^9"Rc4 [|: Lc2)Ac !flam!A2!flam!c2 !flam!LA2cA !flam!c2!flam!A2 \
-  | !flam!c2!flam!LA2 !flam!cLAcA !flam!c4 ("^9"RA4 \
-  | LA2)cA !flam!cc!flam!A2 !flam!cLAcA !flam!cc!flam!A2 \
-  | !flam!LcAcc !flam!LAcAA !flam!Lc4 ("^9"RA4 !
-  | LA2)!flam!c2 !flam!ALcAc !flam!A4 ("^9"Rc4 \
-  | c)A!flam!LcA c!flam!LAcA !flam!c4 ("^9"RA4  \
-  | A)c!flam!AA !flam!cLAcA !flam!cc!flam!AA !flam!cLAcA \
-  | !flam!LcAc!flam!LA cA!flam!c2 !flam!LA4 ("^9"Rc4 ! :|]
-  V:B
-  z4 [|: Lc2Ac A4 LA2cA c4 \
-  | c2LA2 cLAcA c4 z4 \
-  | LA4 ccA2 cLAcA ccA2 \
-  | LcAcc LAcAA Lc4 z4!
-  | LA4 ALcAc A4 z4 \
-  | cALcA cLAcA c4 z4  \
-  | AcAA cLAcA ccAA cLAcA \
-  | LcAcLA cAc2 LA4 z4 ! :|]
+  ("^9"Rc4 [|: Vc2)Ac !flam!A2!flam!c2 !flam!VA2cA !flam!c2!flam!A2 \
+  | !flam!c2!flam!VA2 !flam!cVAcA !flam!c4 ("^9"RA4 \
+  | VA2)cA !flam!cc!flam!A2 !flam!cVAcA !flam!cc!flam!A2 \
+  | !flam!VcAcc !flam!VAcAA !flam!Vc4 ("^9"RA4 $
+  | VA2)!flam!c2 !flam!AVcAc !flam!A4 ("^9"Rc4 \
+  | c)A!flam!VcA c!flam!VAcA !flam!c4 ("^9"RA4  \
+  | A)c!flam!AA !flam!cVAcA !flam!cc!flam!AA !flam!cVAcA \
+  | !flam!VcAc!flam!VA cA!flam!c2 !flam!VA4 ("^9"Rc4 :|] $
+V:B
+  z4 [|: Vc2Ac A4 VA2cA c4 \
+  | c2VA2 cVAcA c4 z4 \
+  | VA4 ccA2 cVAcA ccA2 \
+  | VcAcc VAcAA Vc4 z4 $
+  | VA4 AVcAc A4 z4 \
+  | cAVcA cVAcA c4 z4  \
+  | AcAA cVAcA ccAA cVAcA \
+  | VcAcVA cAc2 VA4 z4 :|] $

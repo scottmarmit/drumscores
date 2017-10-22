@@ -1,7 +1,6 @@
-X: 1
 %%landscape 1
+X: 1
 T: The Pikeman's March
-T: Field Drums
 M: 4/4
 L: 1/16
 K: none stafflines=1
@@ -10,40 +9,42 @@ V:B stem=down gstem=down dyn=up clef=none snm="B"
 U: R = ///
 U: r = //
 U: V = +tallaccent+
+I: linebreak $
 P:1
 V:S
   ("^7"rA2 | Vc4) !flam!(3:2A2!flam!c2!flam!A2 !flam!Vc2!flam!VA2 z2 .c.A \
   | Vc2Ac !flam!A2!flam!c2 !flam!AVcAc !flam!A2("^5"rc2 \
   | Vc2)"^5"(rA2 A)VcA2 {cc}AcVA2 z2 "^7"(rc2 \
-  | VA2)("^13"rc2 Rc4 Vc)AcVA cA!flam!c!flam!A !
+  | VA2)("^13"rc2 Rc4 Vc)AcVA cA!flam!c!flam!A $
   | !flam!Vc4 !flam!(3:2A2!flam!c2!flam!A2 !flam!Vc2!flam!VA2 z2 .c.A \
   | Vc2Ac !flam!A2!flam!c2 !flam!AVcAc !flam!A2("^5"rc2 \
   | Vc2)("^9"rA2 rA2 A)c VA2("^9"rc2 rc2 c)A \
-  | Vc2Ac !flam!AA!flam!c2 !flam!VA4 z2 ! |]
+  | Vc2Ac !flam!AA!flam!c2 !flam!VA4 z2 |] $
 V:B
   z2 | Vc4 (3:2A2c2A2 Vc2VA2 z2 .c.A \
   | Vc4 z4 AVcAc A4 \
   | Vc4 AVcAc AcVA2 z4 \
-  | VA4 z4 VcAcVA cAcA !
+  | VA4 z4 VcAcVA cAcA $
   | Vc4 (3:2A2c2A2 Vc2VA2 z2 .c.A \
   | Vc4 z4 AVcAc A4 \
   | Vc4 z2 Ac VA4 z2 cA \
-  | Vc2Ac AAc2 VA4 z2 ! |]
+  | Vc2Ac AAc2 VA4 z2 $ |]
+%%vskip 40
 P:2
 V:S
   cA | !flam!Vc2("^13"rA2 RA4 VA2)"^13"(rc2 Rc4  \
   | Vc2)Ac !flam!A2!flam!cVA cA!flam!c2 !flam!A2cA \
   | !flam!Vc2("^13"rA2 RA4 VA2)("^13"rc2 Rc4 \
-  | Vc2)Ac !flam!AA!flam!c2 !flam!VA4 !flam!cc!flam!AA !
+  | Vc2)Ac !flam!AA!flam!c2 !flam!VA4 !flam!cc!flam!AA $
   | !flam!Vc2("^13"rA2 RA4 VA2)("^13"rc2 Rc4  \
   | Vc2)Ac !flam!A2!flam!cVA cA!flam!c2 !flam!A2cA \
   | !flam!Vc4 ("^9"RA4 A)Vc3 !flam!A2!flam!c2 \
-  | !flam!VA2cA !flam!c2!flam!A2 !flam!Vc8 ! |]
+  | !flam!VA2cA !flam!c2!flam!A2 !flam!Vc8 |] $
 V:B
   cA | Vc4 z2 cA Vc4 z2 cA  \
   | Vc2Ac A2cVA cAc2 A2cA \
   | Vc4 z2 cA Vc4 z2 cA  \
-  | Vc2Ac AAc2 VA4 ccAA !
+  | Vc2Ac AAc2 VA4 ccAA $
   | Vc4 z2 cA Vc4 z2 cA  \
   | Vc2Ac A2cVA cAc2 A2cA \
   | Vc4 z4 z4 A2c2 \

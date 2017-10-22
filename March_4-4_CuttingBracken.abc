@@ -1,33 +1,35 @@
+%%landscape 1
 X: 1
 T: Cutting Bracken
-T: Scott Armit 2016
 M: 4/4
 L: 1/16
 K: none stafflines=1
 V: S stem=down gstem=down dyn=up clef=none snm="S"
 V: B stem=down gstem=down dyn=up clef=none snm="B"
-U: R = //
+U: R = ///
 U: r = //
 U: V = +tallaccent+
+I: linebreak $
 P:1
 V:S
   [|: !flam!c2!flam!A2 !flam!("^9"rc4 c2)!flam!A2 !flam!("^9"rc4 \
-  | Vc)Ac!flam!A Vc2!flam!A2 !flam!VcAc!flam!VA cA!flam!c2 !
+  | Vc)Ac!flam!A Vc2!flam!A2 !flam!VcAc!flam!VA cA!flam!c2 \
   | !flam!A2!flam!c2 !flam!VA2("^7"rc2 VA)cA2 z4 \
-  | !flam!AVcAVc AVcVA2 ("^13 closed"Rc4 Vc4)  :|] !
+  | !flam!AVcAVc AVcVA2 ("^13 closed"Rc4 Vc4)  :|] $
 V:B
   [|: c2A2 Vc4 A2c2 VA4 \
-  | VcAcVA Vc2A2 Vc4 z4 !
+  | VcAcVA Vc2A2 Vc4 z4 \
   | c2A2 Vc4 VAcA2 z4 \
-  | VcAcVA cAVc2 z4 z4 :|] !
+  | VcAcVA cAVc2 z4 z4 :|] $
+%%vskip 40
 P:2
 V:S
   [|: (6:4VcAcAcVA (6:4VcAcVAcA VcAc!flam!A Vc2!flam!A2 \
-  | !flam!Vc2{AA}cVA cA!flam!c2 ("^12"RVA4 VA4) !
+  | !flam!Vc2{AA}cVA cA!flam!c2 {VA(}"^11"Rc4 VA4) \
   | (6:4VcAcAcVA (6:4VcAcVAcA VcAc2 {Acc}VA2!flam!c2 \
-  | !flam!AVcAVc AVcVA2 ("^13 closed"Rc4 Vc4) :|] !
+  | !flam!AVcAVc AVcVA2 ("^13 closed"Rc4 Vc4) :|] $
 V:B
   [|: Vc3A Vc2A2 Vc3VA z2c2 \
-  | VA4 z4 c2A2 Vc4 !
+  | VA4 z4 c2A2 Vc4 \
   | Vc3A Vc2A2 Vc3VA z2c2 \
-  | VcAcVA cAVc2 z4 z4 :|] !
+  | VcAcVA cAVc2 z4 z4 :|] $

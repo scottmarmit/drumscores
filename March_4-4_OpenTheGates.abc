@@ -1,8 +1,6 @@
 X: 1
 %%landscape 1
 T: Open The Gates!
-T: Field Drums
-T: Arrangement by Scott Armit
 M: 4/4
 L: 1/16
 K: none stafflines=1
@@ -30,6 +28,7 @@ V:B
   | A2c2 VAcAA Vc4 z4 \
   | Vc4 VA4 c2A2 VcAcc \
   | A2c2 VAcAA Vc4 c2A2 |]
+%%vskip 40
 P:2
 V:S
   ![| Vc2)!flam!A2 !flam!c2!flam!VA2 !flam!c2!flam!A2 !flam!Vc2"^7"(rA2 \
