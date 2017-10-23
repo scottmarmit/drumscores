@@ -11,8 +11,8 @@ U: r = //
 U: V = +tallaccent+
 P:1
 V:S
-  ("^7"rA3Vc) VA2!flam!c2 !flam!A2!flam!Vc2 \
-  | !flam!A2("^7"rc2 A2)!flam!Vc2 !flam!AVcAc \
+  !f!("^7"rA3Vc) VA2!p!!flam!c2 !flam!A2!flam!Vc2 \
+  | !flam!A2("^7"rc2 A2)!mf!!flam!Vc2 !flam!AVcAc \
   | !flam!A2("^7"rc2 A2)!flam!Vc2 !flam!AVcAc \
   | !flam!AA!flam!Vc2 ("^9"RA4 VA4) "X2":|] !
 V:B
@@ -20,15 +20,40 @@ V:B
   | A4 z2Vc2 AVcAc \
   | A4  z2Vc2 AVcAc \
   | AAVc2 AcAc VA4 :|] !
-%%vspace 20
+%%vspace 40
 P:2
 V:S
-  ("^7"rA3Vc) VA2!flam!cc !flam!AA!flam!cc \
-  | !flam!VA2(3:2cAc VA2!flam!c2 z2!flam!A2  \
-  | !flam!Vc2(3:2AcA Vc2!flam!AA !flam!cc!flam!AA \
-  | !flam!cc!flam!VA2 ("^9"Rc4 Vc4) "X2":|] !
+  !f!("^7"rA3Vc) VA2!p!!flam!cc !flam!AA!flam!cc \
+  | !flam!VA2(3:2cAc !f!VA2!p!!flam!c2 z2!flam!A2  \
+  | !flam!!f!Vc2(3:2AcA Vc2!p!!flam!AA !flam!cc!flam!AA \
+  | !flam!cc!flam!!mf!VA2 ("^9"Rc4 Vc4) "X2":|] !
 V:B
   A3Vc VA2cc AAcc \
   | VA4 z2cVA cAcVA \
   | Vc4 Vc2AA ccAA \
   | AAVc2 AcAc VA4 :|] !
+%%vspace 40
+P:3
+V:S
+  !f!("^7"rA3Vc) VA2!p!!dbl!cA c!flam!Ac!flam!c \
+  | VA2("^7"rc2 !mf!VA2)!flam!Vc2 !flam!AVcAc \
+  | !flam!VA2("^7"rc2 VA2)!p!!dbl!cA c!flam!Ac!flam!c 
+  | VA4 !mf!("^9"Rc4 Vc4) "X2":|] !
+V:B
+  A3Vc VA4 cVAcA \
+  | Vc4 A2Vc2 AVcAc \
+  | VA4 Vc4 cVAcA \
+  | Vc4 AcAc VA4 :|] !
+%%vspace 40
+P:4
+V:S
+  ("^7"rA3!f!Vc) VA2!mp!Vc/A/c/A/ c/A/Vc/A/c/A/c/A/ \
+  | !<(!cAc2 {AA}!<)!!f!Vc2V!mp!A/c/A/c/ A/c/VA/c/A/c/A/c/ \
+  | !<(!AcA2 {cc}!<)!!f!VA2!mp!Vc/A/c/A/ c/A/Vc/A/c/A/c/A/ 
+  | !<(!cAV!<)!!f!c2 !mf!("^9"RA4 VA4) "X2":|] !
+V:B
+  A3Vc VA2cc AAcc\
+  | AAc2 VA2cc AAcc \
+  | AAc2 VA2cc AAcc \ 
+  | AAVc2 AcAc VA4 :|] !
+
