@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<museScore version="2.06">
+  <Drum pitch="60">
+    <head>0</head>
+    <line>1</line>
+    <voice>0</voice>
+    <name>Left</name>
+    <stem>2</stem>
+    <shortcut>A</shortcut>
+    <variants>
+      <variant pitch="59">
+        <tremolo>r16</tremolo>
+        </variant>
+      <variant pitch="59">
+        <articulation>sforzato</articulation>
+        <tremolo>r16</tremolo>
+        </variant>
+      <variant pitch="59">
+        <articulation>tenuto</articulation>
+        <tremolo>r16</tremolo>
+        </variant>
+      <variant pitch="59">
+        <articulation>marcato</articulation>
+        <tremolo>r16</tremolo>
+        </variant>
+      <variant pitch="59">
+        <articulation>staccato</articulation>
+        <tremolo>r16</tremolo>
+        </variant>
+      <variant pitch="59">
+        <articulation>staccatissimo</articulation>
+        <tremolo>r16</tremolo>
+        </variant>
+      <variant pitch="59">
+        <articulation>portato</articulation>
+        <tremolo>r16</tremolo>
+        </variant>
+      <variant pitch="57">
+        <tremolo>buzzroll</tremolo>
+        </variant>
+      <variant pitch="57">
+        <articulation>sforzato</articulation>
+        <tremolo>buzzroll</tremolo>
+        </variant>
+      <variant pitch="57">
+        <articulation>tenuto</articulation>
+        <tremolo>buzzroll</tremolo>
+        </variant>
+      <variant pitch="57">
+        <articulation>marcato</articulation>
+        <tremolo>buzzroll</tremolo>
+        </variant>
+      <variant pitch="57">
+        <articulation>staccato</articulation>
+        <tremolo>buzzroll</tremolo>
+        </variant>
+      <variant pitch="57">
+        <articulation>staccatissimo</articulation>
+        <tremolo>buzzroll</tremolo>
+        </variant>
+      <variant pitch="57">
+        <articulation>portato</articulation>
+        <tremolo>buzzroll</tremolo>
+        </variant>
+      <variant pitch="58">
+        <articulation>mordent</articulation>
+        </variant>
+      </variants>
+    </Drum>
+  <Drum pitch="61">
+    <head>0</head>
+    <line>-1</line>
+    <voice>0</voice>
+    <name>Right</name>
+    <stem>2</stem>
+    <shortcut>F</shortcut>
+    <variants>
+      <variant pitch="59">
+        <tremolo>r16</tremolo>
+        </variant>
+      <variant pitch="59">
+        <articulation>sforzato</articulation>
+        <tremolo>r16</tremolo>
+        </variant>
+      <variant pitch="59">
+        <articulation>tenuto</articulation>
+        <tremolo>r16</tremolo>
+        </variant>
+      <variant pitch="59">
+        <articulation>marcato</articulation>
+        <tremolo>r16</tremolo>
+        </variant>
+      <variant pitch="59">
+        <articulation>staccato</articulation>
+        <tremolo>r16</tremolo>
+        </variant>
+      <variant pitch="59">
+        <articulation>staccatissimo</articulation>
+        <tremolo>r16</tremolo>
+        </variant>
+      <variant pitch="59">
+        <articulation>portato</articulation>
+        <tremolo>r16</tremolo>
+        </variant>
+      <variant pitch="57">
+        <tremolo>buzzroll</tremolo>
+        </variant>
+      <variant pitch="57">
+        <articulation>sforzato</articulation>
+        <tremolo>buzzroll</tremolo>
+        </variant>
+      <variant pitch="57">
+        <articulation>tenuto</articulation>
+        <tremolo>buzzroll</tremolo>
+        </variant>
+      <variant pitch="57">
+        <articulation>marcato</articulation>
+        <tremolo>buzzroll</tremolo>
+        </variant>
+      <variant pitch="57">
+        <articulation>staccato</articulation>
+        <tremolo>buzzroll</tremolo>
+        </variant>
+      <variant pitch="57">
+        <articulation>staccatissimo</articulation>
+        <tremolo>buzzroll</tremolo>
+        </variant>
+      <variant pitch="57">
+        <articulation>portato</articulation>
+        <tremolo>buzzroll</tremolo>
+        </variant>
+      <variant pitch="58">
+        <articulation>mordent</articulation>
+        </variant>
+      </variants>
+    </Drum>
+  </museScore>
