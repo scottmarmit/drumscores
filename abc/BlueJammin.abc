@@ -1,0 +1,31 @@
+% see format.fmt for user-defines
+X: 1
+T: Blue Jammin
+T: Hornpipe
+C: Scott Armit
+M: 7/4
+L: 1/8
+V: 1 stafflines=1 staffscale=1.2 dyn=up gstem=up stem=down clef=none
+K: none
+U: r = +//+
+U: R = +///+
+%
+[V:1] \
+% 1st part
+"Part 1"
+[|: !h!{A}cA/2c/2 {c}A{A}!h!(rc A/2)c/2{c} (!h!rA \
+    c/2)A/2{A}!h!c A/2c/2{c}A {A}!h!c/4A/4c/4c/4A/2c/2 {c}A{A}c | !
+ | [M:2/4]{c}!h!(rAc/2)A/2 {A}c{c}!h!A/2c/4c/4 | A/2!h!c/2A/2{A}c/2 \
+   {c}!h!A/2c/4c/4(3A/2c/2A/2 | !h!c/2A/2{A}c/2{c}!h!A/2 c/4A/4c/4A/4!h!c/2A/2 |
+   (3c/2A/2c/2 (r!h!A !h!c2) :|] !
+[| !h!{A}(rcA/2)c/2 !h!(rAc/4)A/4c/4A/4 | !h!c{A}c/2!h!A/2 c/2{c}A/2!h!c{A/2c/2c/2} |
+    A/2!h!c/2A/2{A/2A/2}c/2 !h!c/2A/2{A/2A/2}c/2!h!c/2 | \
+    A/4c/4c/4!h!A/4c/4A/4A/4!h!c/4 A/2c/2{c}A | !
+ |  !h!{A}(rcA/2)c/2 !h!(rAc/4)A/4c/4A/4 | !h!c{A}c/2!h!A/2 c/2{c}A/2!h!c | \
+    {A}!h!c/2A/2{A}c/2{c}!h!A/2 c/4A/4c/4A/4!h!c/2A/2 | \
+    (3c/2A/2c/2 (r!h!A !h!c2) | !
+ | !h!{A}(rcA/2)c/2 !h!(rAc/4)A/4c/4A/4 | !h!c{A}c/2!h!A/2 c/2{c}A/2!h!c{A/2c/2c/2} |
+    A/2!h!c/2A/2{A/2A/2}c/2 !h!c/2A/2{A/2A/2}c/2!h!c/2 | \
+    A/4c/4c/4!h!A/4c/4A/4A/4!h!c/4 A/2c/2{c}A | !
+ |  !h!{A}(rcA/2)c/2 !h!(rAc/4)A/4c/4A/4 | !h!c2  :|]
+ 

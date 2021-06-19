@@ -1,0 +1,58 @@
+%%beginps
+/bang{
+    1.2 SLW M -4 0 RM
+    6 2 RL -6 2 RL stroke
+}!
+
+/hat{	
+    1.2 setlinewidth moveto -2.6 1.0 rmoveto
+    2.6 6.0 rlineto
+    2.6 -6.0 rlineto
+    stroke
+}!
+
+/uhat{
+    1.2 setlinewidth moveto -2.6 8.0 rmoveto
+    2.6 -6.0 rlineto
+    2.6 6.0 rlineto
+    stroke
+}!
+
+% 
+/chip{
+    0.9 setlinewidth
+    % this will take the Y value and subtract 12 from it for height.
+    % then exchange it back to normal and make a copy
+
+    5 add
+    exch -12 add exch
+    % move to where we started the chip
+    moveto
+
+    % draw the vertical start of our bracket
+    0 10 rlineto currentpoint stroke
+
+    % to here we just have the short vertical line
+    % then move back to the currentpoint for the next line
+    moveto 5 add
+    0 rlineto 0 -10 rlineto stroke
+}!
+
+%%endps
+
+%%deco bang 3 bang 8 4 4
+%%deco hat 3 hat 8 4 4
+%%deco uhat 3 uhat 8 4 4
+%%deco chip( 5 - 24 0 0
+%%deco chip) 5 chip 24 0 0
+X: 1
+T: Testing
+M: 4/4
+!bang!: 1/8
+V: 1 stafflines=1 staffscale=1.2 dyn=up gstem=up stem=down perc
+K: C
+U: T = +///+
+U: > = !bang!
+%
+[V:1] \
+|: !chip(! {A}!hat!c/2(3A/4c/4c/4A/2c/2 (T!bang!A!chip)!c/4)A/4c/4A/4 | !chip(!>cA{A/2A/2}c!uhat!c!chip)! A/2{A/2A/2}c/2c/4A/4c/4A/4 | {A}c{A/2c/2c/2}A/2c/2 (T!bang!Ac/4)A/4c/4A/4 | !chip(!!bang!c!chip)!A!chip(!{A/2A/2}c!uhat!c!chip)! A/2!chip(!{A/2A/2}c/2c/4A/4c/4A/4!chip)! :| \

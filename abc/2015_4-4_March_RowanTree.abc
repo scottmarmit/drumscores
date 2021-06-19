@@ -1,0 +1,22 @@
+X: 1
+T: Rowan Tree
+T: March, for Field Drum
+M: 4/4
+L: 1/16
+K: none stafflines=1
+V: 1 stem=down dyn=up clef=none
+U: R = ///
+U: r = //
+% 1st
+{/c}A4 [| ("_O 9"!<(!Rc4 !<)!c2)("_O 5"rA2 LA4) !pp!{/A}c4 | !mf!{/c}A2L{/A}c2 ALcAc {/c}A4 !<(!(6:cAcAcLA!<)!
+| !f!uc4 {A/2c/2c/2}A2LA2 !mf!{/A}cAcc {/c}A2LA2 | {/A}Lc4 !p!("_C 9"Rc4 c4) {/c}A4
+|! ("_O 9"!<(!Rc4 !<)!c2)("_O 5"rA2 LA4) !pp!{/A}c4 | !mf!{/c}A2L{/A}c2 ALcAc {/c}A4 !<(!(6:cAcAcLA!<)!
+| uc2{/c}A2 cLAcc A2{/A}c2 ALcAA | !<(!{/A}(3:.c2.c2.c2 {/c}(3:.A2.A2.A2 !<)!!f!{/A}Lc4> !p!{/c}A4 |]!
+% 2nd
+"\n\n\n"
+[| ("_O 9"!<(!Rc4!<)! "_O 9"!>(!Rc4 !>)!c4>) c4 | !mf!{/c}A2L{/A}c2 ALcAc {/c}A4 !<(!(6:cAcAcLA!<)!
+| !f!uc4 {A/2c/2c/2}A2LA2 !p!!<(!{/A}cc{/c}AA {/A}cc{/c}AA | !f!!<)!{/A}uc4 !p!("_C 9"Rc4 c4) {/c}A4
+|! ("_O 9"!<(!Rc4 !<)!c2)("_O 5"rA2 LA4) !pp!{/A}c4 | !mf!{/c}A2L{/A}c2 ALcAc {/c}A4 !<(!(6:cAcAcLA!<)!
+| uc2{/c}A2 cLAcc A2{/A}c2 ALcAA | !<(!{/A}(3:.c2.c2.c2 {/c}(3:.A2.A2.A2 !<)!!f!{/A}Lc8  |]!
+
+

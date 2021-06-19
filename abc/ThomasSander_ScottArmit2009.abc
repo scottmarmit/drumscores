@@ -1,0 +1,25 @@
+% see format.fmt for user-defines
+X: 1
+T: Thomas Sander
+T: March
+M: 4/4
+L: 1/16
+V: 1 stafflines=1 staffscale=1.2 dyn=up gstem=up stem=down clef=none
+K: none
+U: R = +///+
+U: * = !bang!
+%
+[V:1] \
+% 1st part
+"Part 1"
+[| {A}!bang!c2(Rc2 !bang!(RA2)c/2)A/2c/2A/2 !bang!c4 (Rc2!bang!A2) | {A}!bang!c>A{A}c>{c}!bang!A c>A{A}c2 {c}!bang!A4 (Rc4 |!
+!bang!c2){c}A2 {A}!bang!c>A{A}c>{c}!hat!A c/2A/2c/2A/2c2 {c}!bang!A2(Rc2 | (3A)cA(3!bang!cAc (3Ac!hat!Ac/2A/2c/2A/2 !bang!c4 {A}c2{c}A2 |!
+| {A}!bang!c2(Rc2 !bang!(RA2)c/2)A/2c/2A/2 !bang!c4 (Rc2!bang!A2) | {A}!bang!c>A{A}c>{c}!bang!A c>A{A}c2 {c}!bang!A4 (Rc4 |!
+!bang!c2){c}A2 (R!bang!c2(3A)c!bang!A c/2A/2c/2A/2 (!bang!Rc2 !bang!A2)(Rc2 | (3A)cA(3!bang!cAc (3Ac!bang!Ac/2A/2c/2A/2 !bang!c4 z4 |]!
+% 2nd part
+"Part 2"
+[| (!bang!Rc2>A2) (!bang!Rc2A/2)c/2A/2c/2 !bang!A4 (Rc4 | c>)A{A}!bang!c>A c>{A/2A/2}c c/2A/2c/2A/2 !bang!c4 (Rc4 |!
+(!bang!Rc2>)A2) (!bang!Rc2(!hat!RA2) c/2)A/2c/2A/2 (!bang!Rc2 !bang!A4) | (3!bang!cAc(3!bang!{c}AcA (3cA!bang!{A}c(3AcA !bang!{A}c4 (Rc2A2) |!
+| {A}!bang!c2(Rc2 !bang!(RA2)c/2)A/2c/2A/2 !bang!c4 (Rc2A2) | {A}!bang!c>A{A}c>{c}!bang!A c>A{A}c2 {c}!bang!A4 (Rc4 |!
+!bang!c2){c}A2 (R!bang!c2(3A)c!bang!A c/2A/2c/2A/2 (!bang!Rc2 !bang!A2)(Rc2 | (3A)cA(3!bang!cAc (3Ac!bang!Ac/2A/2c/2A/2 !bang!c4 z4 |]!
+
