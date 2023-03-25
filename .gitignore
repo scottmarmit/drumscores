@@ -3,3 +3,6 @@ output/
 **/.mscbackup
 **/*.png
 **/*.pdf
+**/.terraform*
+*.tfstate
+*.tfstate.*
