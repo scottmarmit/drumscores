@@ -6,3 +6,5 @@ output/
 **/.terraform*
 *.tfstate
 *.tfstate.*
+.terragrunt-cache
+.terraform.lock.hcl
