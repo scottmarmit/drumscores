@@ -8,3 +8,4 @@ output/
 *.tfstate.*
 .terragrunt-cache
 .terraform.lock.hcl
+**/*.autosave
